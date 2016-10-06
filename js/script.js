@@ -21,6 +21,10 @@ $(document).ready(function () {
 //affichage projet
 
 function affichageprojet() {
-    document.getElementById("affichage-projet").style.transition = "all 5s";
-    document.getElementById("affichage-projet").style.display = "block";
+    var element = document.getElementById("affichage-projet");
+        if(element.style.display == "block") {
+            element.style.display = "none";
+        } else {
+            element.style.display = "block";
+        }
 }

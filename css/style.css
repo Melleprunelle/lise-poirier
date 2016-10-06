@@ -287,15 +287,24 @@ header a > button:hover {
 }
 
 .projet-index button {
-    color: white;
-    width: 25%;
-    height: 40px;
+    color: #0c0d11;
+    width: 105px;
+    height: 105px;
     margin-bottom: 30px;
     border-radius: 0%;
-    background-color: #0c0d11;
+    background-color: transparent;
+    border: 1px solid #0c0d11;
     font-size: 1em !important;
     font-weight: 400;
     text-align: center;
+    text-transform: uppercase;
+    border-radius: 100%;
+}
+
+.projet-index button:hover {
+    color: white;
+    background-color: #0c0d11;
+
 }
 
 .separator-projet {
@@ -325,6 +334,65 @@ header a > button:hover {
     background-repeat: no-repeat;
 }
 
+.quizz {
+    background-image: url(../img/img5.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.anagramme {
+    background-image: url(../img/img-11.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.poney {
+    background-image: url(../img/img6.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.audiotheme {
+    background-image: url(../img/img7.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.bootstrap {
+    background-image: url(../img/img4.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.pastime {
+    background-image: url(../img/img2.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.createpro {
+    background-image: url(../img/img1.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.projet a {
+    font-size: 1.1em;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 100%;
+    text-decoration: none;
+    color: transparent;
+}
+
+.projet a:hover {
+    color: #0c0d11;
+}
+
 .projet {
     height: 275px;
     background-color: #0c0d11;
@@ -332,6 +400,7 @@ header a > button:hover {
     display: inline-block;
     margin: 30px;
     color: transparent;
+    cursor: crosshair;
 }
 
 .projet h3 {
@@ -348,6 +417,7 @@ header a > button:hover {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 5px;
+    text-transform: lowercase;
 }
 
 .projet:hover {
@@ -356,5 +426,6 @@ header a > button:hover {
     background-image: url(../img/1hsuda6x);
     background-repeat: repeat;
     background-size: auto;
+    transform: rotate(0.3deg);
     
 }
