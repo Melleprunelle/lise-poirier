@@ -9,15 +9,42 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="font/icone/font-awesome.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 <body class="container-fluid">
 
-    <header class="col-md-12">
+    <!--NAVBAR DU SITE-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <a class="navbar-brand" href="index.html">LISE POIRIER</a>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">WEB</a></li>
+                <li><a href="#">GRAPHISME</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="startchange" class="col-md-12">
         <h1>WELCOME</h1>
         <div class="separator-header"></div>
         <h2>LISE POIRIER - GRAPHISTE &amp; WEBDESIGNER</h2>
         <div class="separator-header"></div>
-        <a href="#">
+        <a href="#explore">
             <button>Explore</button>
         </a>
     </header>
@@ -25,18 +52,44 @@
     <section class="present-index col-md-12 container-fluid">
         <h2 class="col-md-8 col-md-offset-2"> { Hello, mon prénom est Lise. Je crée des réponses pour vos besoins dans le domaine du web et des idendités graphiques. }</h2>
         <div class="bloc-present-index col-md-4">
-            <div class="col-md-4 col-md-offset-4 icone-index image-icone"></div>
+            <div id="explore" class="icone-index center-block image-icone center-block"></div>
             <p class="col-md-8 col-md-offset-2">Si une image vaut mille mots, autant bien choisir les mots quand on en a peu. Mon expertise est à votre écoute avant de trouver l’idée et la traduire, en quelques mots.</p>
         </div>
         <div class="bloc-present-index col-md-4">
-            <div class="col-md-4 col-md-offset-4 icone-index image-icone2"></div>
+            <div class="icone-index center-block image-icone2 center-block"></div>
             <p class="col-md-8 col-md-offset-2">La forme passe par les formes. Diplômée en communication graphique et formée en Web-développement, j'ai aujourd'hui le sens de l'image et de l'air numérique.</p>
         </div>
         <div class="bloc-present-index col-md-4">
             <div class="icone-index center-block image-icone3"></div>
             <p class="col-md-8 col-md-offset-2">Un site web doit véhiculer vos valeurs et vos atouts. C’est pour cela qu’un soin particulier doit être donné au graphisme comme au contenu. Mon rôle est de répondre à ses attentes. </p>
         </div>
+        <img class="col-md-6 img-responsive" src="img/lise.jpg" alt="">
+        <div class="col-md-6 presentation-index">
+            <h2 class="col-md-8 col-md-offset-2">ABOUT ME</h2>
+            <div class="separator-presentation col-md-8 col-md-offset-2"></div>
+            <p class="col-md-8 col-md-offset-2">Après avoir étudié la communication graphique pendant cinq ans dans diverses écoles et réalisée une formation pour devenir Webdesigner. Je suis aujourd’hui en possession d’un CAP, d’un BAC professionnel et d’une licence en communication graphique. J’ai diverses expériences dans plusieurs entreprises, notamment Imagic ou Point Cardinal à Rennes. Je suis à l’heure actuelle en capacité de répondre aux envies de mes futurs collaborateurs. Il est bon de savoir que je suis une personne perfectionniste et irait jusqu'au bout pour satisfaire une demande. Ma curiosité et ma motivation me permettent d'avancer au maximum dans un projet et de l'aboutir. La créativité est une chose primordiale dans notre métier, mais la technicité et le sérieux rendent un projet concret. Il faut à mes yeux un mixte de tout cela pour offrir un projet valable et correspondant aux attentes de la demande.</p>
+        </div>
     </section>
+
+    <section class="projet-index col-md-12">
+        <div class="icone-index center-block image-icone4" onclick="affichageprojet()">
+        </div>
+        <h2 class="col-md-12 text-cente">{ Mes projets en web }</h2>
+        <div class="separator-projet col-md-6 col-md-offset-3"></div>
+        <div class="block-projet">
+            <div class="projet pole-dance"><h3 class="col-md-12">POLE DANCE</h3><p class="col-md-12">Réalisation et création d'un site internet pour une école de pôle dance dans la métropole de l'ouest. L'aperçu si-dessus est le site actuel sans intervention.</p></div>
+            <div class="projet veto"><p class="col-md-12">pouet</p></div>
+            <div class="projet pomodoro"></div>
+        </div>
+        <h3 class="col-md-12 text-center"><button>click-me</button></h3>
+
+        <div id="affichage-projet">
+
+        </div>
+    </section>
+
+
+
 
 </body>
 

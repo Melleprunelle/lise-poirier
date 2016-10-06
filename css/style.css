@@ -17,7 +17,7 @@
    BASE
    ========================================================================== */
 
-body{
+body {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -48,6 +48,69 @@ h2 {
 /* ==========================================================================
    NAV
    ========================================================================== */
+
+
+/* Navbar du site */
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.navbar-toggle {
+    z-index: 3;
+}
+
+.navbar {
+    border-radius: 0px;
+    background-color: transparent;
+    border: 0px solid #0C0D11;
+}
+
+.navbar-left li:hover {
+    background-color: #0C0D11;
+    opacity: 0.8;
+}
+
+.navbar-left a:hover {
+    color: white;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    color: white !important;
+    font-family: "Opens Sans", sans-serif;
+    font-size: 1em;
+}
+
+.navbar-right {
+    margin-right: 10px;
+}
+
+.navbar-right i {
+    font-size: 1.5em;
+}
+
+.navbar-right a {
+    padding-bottom: 0px !important;
+}
+
+.navbar-brand {
+    font-size: 1.2em !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0px;
+}
 
 
 /* ==========================================================================
@@ -86,7 +149,7 @@ header a > button {
 
 header a > button:hover {
     background-color: white;
-    color: #222;
+    color: #0C0D11;
 }
 
 
@@ -95,72 +158,203 @@ header a > button:hover {
    ========================================================================== */
 
 .present-index {
-    height: 1600px;
     background-color: white;
 }
 
 .present-index h2 {
-    color: #333;
-    margin-top: 125px;
+    color: #0c0d11;
+    margin-top: 150px;
     text-shadow: none;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 400;
     text-align: center;
 }
 
 .bloc-present-index {
-    height: 350px;
-    background-color: #222;
+    height: 400px;
+    background-color: #0C0D11;
     margin-top: 170px;
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
+    color: white;
+}
+
+.bloc-present-index:hover {
+    height: 400px;
+    background-color: white;
+    background-image: url(../img/1hsuda6x);
+    color: #0c0d11;
+    margin-top: 170px;
+    transition: 0.5s;
+    cursor: crosshair;
 }
 
 .bloc-present-index p {
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 1.3em;
     text-align: center;
-    color: white;
 }
 
 .icone-index {
     height: 135px;
     width: 135px;
-    background-color: #222;
+    background-color: #0C0D11;
     border-radius: 100%;
     margin-top: -60px;
     border: 15px solid white;
 }
 
 .image-icone {
-    background-image: url(../img/picture.svg);
+    background-image: url(../img/landscape.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.image-icone:hover {
-    background-image: none;
-    background-color: crimson;
-}
-
-.image-icone2  {
-    background-image: url(../img/magnifying-glass.svg);
+.image-icone2 {
+    background-image: url(../img/bulb.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.image-icone2:hover  {
-    background-color: darkred;
-    background-image: none;
-}
-
-.image-icone3  {
-    background-image: url(../img/monitor.svg);
+.image-icone3 {
+    background-image: url(../img/computer.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.image-icone3:hover  {
-    background-image: none;
-    background-color: orangered;
+.present-index img {
+    margin: 0px;
+    padding: 0px;
+    height: 525px;
+    /*    -webkit-filter: saturate(16%);
+    filter: saturate(50%);*/
+}
+
+.presentation-index {
+    height: 525px;
+    display: flex;
+    color: #0c0d11;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.presentation-index h2 {
+    font-family: 'Lovelo';
+    color: #0c0d11;
+    padding-left: 0px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.separator-presentation {
+    border-bottom: 2px solid grey;
+}
+
+.presentation-index p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    padding-left: 0px;
+}
+
+
+/* ==========================================================================
+   PROJET
+   ========================================================================== */
+
+#affichage-projet {
+    display: none;
+}
+
+.projet-index {
+    height: 800px;
+    background-color: ;
+}
+
+.image-icone4 {
+    background-image: url(../img/settings.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projet-index h2 {
+    color: #0c0d11;
+    margin-top: 50px;
+    text-shadow: none;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.projet-index button {
+    color: white;
+    width: 25%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 0%;
+    background-color: #0c0d11;
+    font-size: 1em !important;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separator-projet {
+    border-bottom: 2px solid #0c0d11;
+    margin-top: 25px;
+}
+
+.block-projet {
+    margin-top: 190px;
+}
+
+.pole-dance {
+    background-image: url(../img/img12.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.veto {
+    background-image: url(../img/img9.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.pomodoro {
+    background-image: url(../img/img8.png);
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+}
+
+.projet {
+    height: 275px;
+    background-color: #0c0d11;
+    width: 28%;
+    display: inline-block;
+    margin: 30px;
+    color: transparent;
+}
+
+.projet h3 {
+    font-family: 'Lovelo';
+    padding-left: 30px;
+    font-weight: 600;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.projet p {
+    font-size: 1.1em;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+.projet:hover {
+    color: #0c0d11;
+    background-color: white;
+    background-image: url(../img/1hsuda6x);
+    background-repeat: repeat;
+    background-size: auto;
+    
 }
