@@ -1,0 +1,166 @@
+/* ==========================================================================
+   FONT FACE
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Lovelo';
+    src: url('../font/Lovelo Line Light.otf');
+}
+
+@font-face {
+    font-family: 'Lovelo-black';
+    src: url('../font/Lovelo Line Bold.otf');
+}
+
+
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Lovelo-black';
+    font-size: 10em;
+    margin: 0px;
+    color: white;
+    text-shadow: 3px 3px 5px #000;
+}
+
+h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px #000;
+}
+
+
+/* ==========================================================================
+   NAV
+   ========================================================================== */
+
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+header {
+    background-attachment: fixed;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator-header {
+    width: 55%;
+    border-bottom: 2px solid white;
+    box-shadow: 3px 3px 5px #000;
+}
+
+header a > button {
+    width: 300px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+header a > button:hover {
+    background-color: white;
+    color: #222;
+}
+
+
+/* ==========================================================================
+   PRESENTATION
+   ========================================================================== */
+
+.present-index {
+    height: 1600px;
+    background-color: white;
+}
+
+.present-index h2 {
+    color: #333;
+    margin-top: 125px;
+    text-shadow: none;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bloc-present-index {
+    height: 350px;
+    background-color: #222;
+    margin-top: 170px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.bloc-present-index p {
+    margin-top: 50px;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
+
+.icone-index {
+    height: 135px;
+    width: 135px;
+    background-color: #222;
+    border-radius: 100%;
+    margin-top: -60px;
+    border: 15px solid white;
+}
+
+.image-icone {
+    background-image: url(../img/picture.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-icone:hover {
+    background-image: none;
+    background-color: crimson;
+}
+
+.image-icone2  {
+    background-image: url(../img/magnifying-glass.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-icone2:hover  {
+    background-color: darkred;
+    background-image: none;
+}
+
+.image-icone3  {
+    background-image: url(../img/monitor.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-icone3:hover  {
+    background-image: none;
+    background-color: orangered;
+}
