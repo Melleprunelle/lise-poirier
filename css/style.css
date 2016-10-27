@@ -30,18 +30,16 @@ h1 {
     font-family: 'Lovelo-black';
     font-size: 10em;
     margin: 0px;
-    color: white;
-    text-shadow: 3px 3px 5px #000;
+    color: #232260;
 }
 
 h2 {
-    color: white;
+    color: #232260;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 2.2em;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-shadow: 3px 3px 5px #000;
 }
 
 
@@ -69,21 +67,21 @@ h2 {
 .navbar {
     border-radius: 0px;
     background-color: transparent;
-    border: 0px solid #0C0D11;
+    border: 0px solid #232260;
 }
 
 .navbar-left li:hover {
-    background-color: #0C0D11;
+    background-color: #232260;
     opacity: 0.8;
 }
 
 .navbar-left a:hover {
-    color: white;
+    color: whitesmoke !important;
 }
 
 .navbar a {
     text-transform: uppercase;
-    color: white !important;
+    color: #232260 !important;
     font-family: "Opens Sans", sans-serif;
     font-size: 1em;
 }
@@ -105,7 +103,7 @@ h2 {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: #232260;
 }
 
 .navbar-default .navbar-toggle {
@@ -119,20 +117,116 @@ h2 {
 
 header {
     background-attachment: fixed;
-    background-image: url(../img/header.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
+    background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
+}
+
+header div:first-child {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+}
+
+.mountain {
+    width: 110px;
+    vertical-align: bottom;
+    margin-left: -25px;
+}
+
+.horse {
+    transform: rotateY(-180deg);
+    height: 100px;
+    vertical-align: bottom;
+    animation-name: horse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes horse {
+    from {
+        transform: rotateY(180px));
+    }
+    to {
+        transform: translateX(300px);
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes horse {
+    from {
+        transform: rotateY(180px));
+    }
+    to {
+        transform: translateX(300px);
+    }
+}
+
+.paysage-header img:first-child {
+    margin-right: -15px;
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.paysage-header {
+    margin-top: 110px;
+    height: 50px;
+}
+
+.paysage-header img {
+    display: inline-block;
+    width: 160px;
+}
+
+.elements-volant img {
+    width: 150px;
+    
+      animation-name: balloon;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-direction: alternate;
+
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes balloon {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes balloon {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-300px);
+    }
 }
 
 .separator-header {
     width: 55%;
-    border-bottom: 2px solid white;
-    box-shadow: 3px 3px 5px #000;
+    border-bottom: 2px solid #232260;
 }
 
 header a > button {
@@ -141,15 +235,15 @@ header a > button {
     height: 40px;
     border-radius: 0px;
     background-color: transparent;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid #232260;
+    color: #232260;
     text-transform: uppercase;
     font-size: 1.5em;
 }
 
 header a > button:hover {
-    background-color: white;
-    color: #0C0D11;
+    background-color: #232260;
+    color: whitesmoke;
 }
 
 
@@ -157,275 +251,54 @@ header a > button:hover {
    PRESENTATION
    ========================================================================== */
 
-.present-index {
-    background-color: white;
+.presentation {
+    display: block;
+    background: linear-gradient(to bottom, #171940 0%,#232260 100%);
 }
 
-.present-index h2 {
-    color: #0c0d11;
-    margin-top: 150px;
-    text-shadow: none;
-    font-size: 3em;
+.presentation img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.presentation h2 {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 70px;
     font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.presentation p {
+    margin-top: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
     text-align: center;
-}
-
-.bloc-present-index {
-    height: 400px;
-    background-color: #0C0D11;
-    margin-top: 170px;
-    color: white;
-}
-
-.bloc-present-index:hover {
-    height: 400px;
-    background-color: white;
-    background-image: url(../img/1hsuda6x);
-    color: #0c0d11;
-    margin-top: 170px;
-    transition: 0.5s;
-    cursor: crosshair;
-}
-
-.bloc-present-index p {
-    margin-top: 70px;
-    font-size: 1.3em;
-    text-align: center;
-}
-
-.icone-index {
-    height: 135px;
-    width: 135px;
-    background-color: #0C0D11;
-    border-radius: 100%;
-    margin-top: -60px;
-    border: 15px solid white;
-}
-
-.image-icone {
-    background-image: url(../img/landscape.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.image-icone2 {
-    background-image: url(../img/bulb.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.image-icone3 {
-    background-image: url(../img/computer.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.present-index img {
+    color: #232260;
+    letter-spacing: 1px;/*
+    box-shadow: 2px 2px 1px 1px rgba(0,10,50,0.7);*/
+    padding-top: 50px;
+    border-right: 1px solid #232260;
+    padding-bottom: 50px;
     margin: 0px;
-    padding: 0px;
-    height: 525px;
-    /*    -webkit-filter: saturate(16%);
-    filter: saturate(50%);*/
+    margin-bottom: 75px;
+    background-color: lightcyan;
+    transition: 0.8s;
+}
+.presentation p:hover {
+    color: whitesmoke;
+    background-color: #232260;
+    box-shadow: none;
 }
 
-.presentation-index {
-    height: 525px;
-    display: flex;
-    color: #0c0d11;
-    flex-direction: column;
-    justify-content: center;
-    background-color: whitesmoke;
+.separator-present {
+    border-bottom: 1px solid whitesmoke;
+    width: 300px;
+    margin: 30px auto;
 }
-
-.presentation-index h2 {
-    font-family: 'Lovelo';
-    color: #0c0d11;
-    padding-left: 0px;
-    font-weight: 600;
-    text-align: left;
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-
-.separator-presentation {
-    border-bottom: 2px solid grey;
-}
-
-.presentation-index p {
-    margin-top: 20px;
-    font-size: 1.1em;
-    padding-left: 0px;
-}
-
-
 /* ==========================================================================
    PROJET
    ========================================================================== */
-
-#affichage-projet {
-    display: none;
-}
-
-.projet-index {
-    height: 800px;
-    background-color: ;
-}
-
-.image-icone4 {
-    background-image: url(../img/settings.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.projet-index h2 {
-    color: #0c0d11;
-    margin-top: 50px;
-    text-shadow: none;
-    font-size: 3em;
-    font-weight: 400;
-    text-align: center;
-}
-
-.projet-index button {
-    color: #0c0d11;
-    width: 105px;
-    height: 105px;
-    margin-bottom: 30px;
-    border-radius: 0%;
-    background-color: transparent;
-    border: 1px solid #0c0d11;
-    font-size: 1em !important;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 100%;
-}
-
-.projet-index button:hover {
-    color: white;
-    background-color: #0c0d11;
-
-}
-
-.separator-projet {
-    border-bottom: 2px solid #0c0d11;
-    margin-top: 25px;
-}
-
-.block-projet {
-    margin-top: 190px;
-}
-
-.pole-dance {
-    background-image: url(../img/img12.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.veto {
-    background-image: url(../img/img9.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.pomodoro {
-    background-image: url(../img/img8.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.quizz {
-    background-image: url(../img/img5.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.anagramme {
-    background-image: url(../img/img-11.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.poney {
-    background-image: url(../img/img6.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.audiotheme {
-    background-image: url(../img/img7.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.bootstrap {
-    background-image: url(../img/img4.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.pastime {
-    background-image: url(../img/img2.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.createpro {
-    background-image: url(../img/img1.png);
-    background-size: 100% 275px;
-    background-repeat: no-repeat;
-}
-
-.projet a {
-    font-size: 1.1em;
-    text-align: left;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    text-transform: uppercase;
-    font-weight: 600;
-    height: 100%;
-    text-decoration: none;
-    color: transparent;
-}
-
-.projet a:hover {
-    color: #0c0d11;
-}
-
-.projet {
-    height: 275px;
-    background-color: #0c0d11;
-    width: 28%;
-    display: inline-block;
-    margin: 30px;
-    color: transparent;
-    cursor: crosshair;
-}
-
-.projet h3 {
-    font-family: 'Lovelo';
-    padding-left: 30px;
-    font-weight: 600;
-    padding-top: 30px;
-    text-transform: uppercase;
-}
-
-.projet p {
-    font-size: 1.1em;
-    text-align: left;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    text-transform: lowercase;
-}
-
-.projet:hover {
-    color: #0c0d11;
-    background-color: white;
-    background-image: url(../img/1hsuda6x);
-    background-repeat: repeat;
-    background-size: auto;
-    transform: rotate(0.3deg);
-    
-}
