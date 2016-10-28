@@ -30,11 +30,12 @@ h1 {
     font-family: 'Lovelo-black';
     font-size: 10em;
     margin: 0px;
-    color: #232260;
+    margin-top: 50px;
+    color: darkcyan;
 }
 
 h2 {
-    color: #232260;
+    color: #E02753;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 2.2em;
@@ -67,11 +68,11 @@ h2 {
 .navbar {
     border-radius: 0px;
     background-color: transparent;
-    border: 0px solid #232260;
+    border: 0px solid #C5142C;
 }
 
 .navbar-left li:hover {
-    background-color: #232260;
+    background-color: darkcyan;
     opacity: 0.8;
 }
 
@@ -81,7 +82,7 @@ h2 {
 
 .navbar a {
     text-transform: uppercase;
-    color: #232260 !important;
+    color: #C5142C !important;
     font-family: "Opens Sans", sans-serif;
     font-size: 1em;
 }
@@ -119,7 +120,7 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 100vh;
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
 }
 
@@ -179,7 +180,7 @@ header div:first-child {
 }
 
 .paysage-header {
-    margin-top: 110px;
+    margin-top: 140px;
     height: 50px;
 }
 
@@ -226,7 +227,7 @@ header div:first-child {
 
 .separator-header {
     width: 55%;
-    border-bottom: 2px solid #232260;
+    border-bottom: 2px solid #C5142C;
 }
 
 header a > button {
@@ -253,51 +254,69 @@ header a > button:hover {
 
 .presentation {
     display: block;
+    background-color: #C5142C;
+/*
     background: linear-gradient(to bottom, #171940 0%,#232260 100%);
+*/
 }
 
 .presentation img {
     width: 200px;
     display: block;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    transition: 0.5s;
 }
 
 .presentation h2 {
     text-align: center;
     color: whitesmoke;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
 
 .presentation p {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     margin-top: 30px;
     padding-left: 45px;
     padding-right: 45px;
     text-align: center;
-    color: #232260;
+    color: darkcyan;
+    font-weight: bold;
     letter-spacing: 1px;/*
     box-shadow: 2px 2px 1px 1px rgba(0,10,50,0.7);*/
     padding-top: 50px;
-    border-right: 1px solid #232260;
+    border: 5px solid #C5142C;
     padding-bottom: 50px;
     margin: 0px;
     margin-bottom: 75px;
     background-color: lightcyan;
     transition: 0.8s;
+    cursor: default;
+}
+
+.presentation p img:first-child {
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 0px;
 }
 .presentation p:hover {
     color: whitesmoke;
-    background-color: #232260;
+    background-color: darkcyan;
     box-shadow: none;
 }
 
 .separator-present {
     border-bottom: 1px solid whitesmoke;
     width: 300px;
-    margin: 30px auto;
+    margin: auto;
+    margin-bottom: 75px;
 }
 /* ==========================================================================
    PROJET
