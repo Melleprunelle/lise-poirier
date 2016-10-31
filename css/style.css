@@ -17,6 +17,11 @@
    BASE
    ========================================================================== */
 
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -122,6 +127,7 @@ header {
     background-position: center;
     height: 100vh;
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
+    position: relative;
 }
 
 header div:first-child {
@@ -129,19 +135,18 @@ header div:first-child {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 17vh;
 }
 
 .mountain {
-    width: 110px;
-    vertical-align: bottom;
     margin-left: -25px;
 }
 
 .horse {
     transform: rotateY(-180deg);
-    height: 100px;
-    vertical-align: bottom;
+    height: 20vh;
+    bottom: 0;
+    position: absolute;
     animation-name: horse;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
@@ -174,31 +179,30 @@ header div:first-child {
 }
 
 .paysage-header img:first-child {
-    margin-right: -15px;
-    width: 100px;
-    vertical-align: bottom;
+    width: 20vh;
+    margin-left: 30px;
 }
 
 .paysage-header {
-    margin-top: 140px;
-    height: 50px;
+    position: absolute;
+    bottom: 0;
 }
 
 .paysage-header img {
     display: inline-block;
-    width: 160px;
+    width: 20vh;
 }
 
 .elements-volant img {
-    width: 150px;
-    
-      animation-name: balloon;
+    width: 20vh;
+    animation-name: balloon;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
     animation-duration: 10s;
     animation-direction: alternate;
-
+    animation-delay: 10s;
 }
+
 
 /* Safari 4.0 - 8.0 */
 
@@ -230,23 +234,6 @@ header div:first-child {
     border-bottom: 2px solid #C5142C;
 }
 
-header a > button {
-    width: 300px;
-    margin-top: 30px;
-    height: 40px;
-    border-radius: 0px;
-    background-color: transparent;
-    border: 2px solid #232260;
-    color: #232260;
-    text-transform: uppercase;
-    font-size: 1.5em;
-}
-
-header a > button:hover {
-    background-color: #232260;
-    color: whitesmoke;
-}
-
 
 /* ==========================================================================
    PRESENTATION
@@ -255,18 +242,15 @@ header a > button:hover {
 .presentation {
     display: block;
     background-color: #C5142C;
-/*
-    background: linear-gradient(to bottom, #171940 0%,#232260 100%);
-*/
 }
 
 .presentation img {
     width: 200px;
     display: block;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
     border-radius: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     transition: 0.5s;
 }
 
@@ -279,25 +263,34 @@ header a > button:hover {
     text-transform: uppercase;
 }
 
+.separator-present {
+    border-bottom: 1px solid whitesmoke;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
 .presentation p {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    margin-top: 30px;
-    padding-left: 45px;
-    padding-right: 45px;
-    text-align: center;
-    color: darkcyan;
-    font-weight: bold;
-    letter-spacing: 1px;/*
-    box-shadow: 2px 2px 1px 1px rgba(0,10,50,0.7);*/
-    padding-top: 50px;
     border: 5px solid #C5142C;
-    padding-bottom: 50px;
-    margin: 0px;
-    margin-bottom: 75px;
-    background-color: lightcyan;
+    padding: 50px 45px 50px 45px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    background-color: ghostwhite;
+    color: darkcyan;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
     transition: 0.8s;
     cursor: default;
+    height: 55vh;
+}
+
+.presentation p:hover {
+    color: whitesmoke;
+    background-color: darkcyan;
+    box-shadow: none;
 }
 
 .presentation p img:first-child {
@@ -305,19 +298,171 @@ header a > button:hover {
     margin-top: 0px;
     margin-bottom: 30px;
     border-radius: 0px;
-}
-.presentation p:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
-    box-shadow: none;
+    -webkit-filter: hue-rotate(175deg);
+    filter: hue-rotate(175deg);
 }
 
-.separator-present {
-    border-bottom: 1px solid whitesmoke;
+
+/* ==========================================================================
+   COMPETENCE
+   ========================================================================== */
+
+.competence {
+    background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
+}
+
+.competence:last-child {
+    margin-bottom: 150px;
+}
+
+.competence h2 {
+    color: darkcyan;
+}
+
+.competence img {
+    width: 165px;
+}
+
+.separator-competence {
+    border-bottom: 1px solid darkcyan;
     width: 300px;
     margin: auto;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
-/* ==========================================================================
-   PROJET
-   ========================================================================== */
+
+.competence-indi h3 {
+    color: #C5142C;
+    font-weight: 500;
+    color: #E02753;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+.competence-indi div {
+    display: inline-block;
+    height: 3px;
+    width: 5vw;
+    margin-left: 20px;
+    background-color: #F79E00;
+}
+
+.competence-indi img {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+    cursor: pointer;
+    width: 10vw;
+    border-radius: 0;
+    margin-top: 5vh;
+    margin-left: -5vw;
+}
+
+.competence-indi p {
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    padding: 0px;
+    border: 0;
+    display: inline-block;
+    margin: 0px;
+    margin-left: -4vw;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.img-rotate {
+    transform: rotateY(180deg);
+}
+
+.flamand {
+    animation-name: flamand-rose;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+}
+
+.elephant {
+    animation-name: elephant;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-delay: 8s;
+}
+
+.elephant-texte {
+    margin-left: -1vw !important;
+}
+
+.bear {
+    animation-name: bear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-delay: 3s;
+}
+
+.seal {
+    animation-name: seal;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-delay: 12s;
+
+}
+
+.seal-img {
+    width: 8vw !important;
+}
+
+.seal-texte {
+    margin-left: 1vw !important;
+}
+
+@keyframes flamand-rose {
+    from {
+        width: 5vw;
+    }
+    to {
+        width: 35vw;
+    }
+}
+
+@keyframes elephant {
+    from {
+        width: 5vw;
+    }
+    to {
+        width: 35vw;
+    }
+}
+
+@keyframes bear {
+    from {
+        width: 5vw;
+    }
+    to {
+        width: 43vw;
+    }
+}
+
+@keyframes seal {
+    from {
+        width: 5vw;
+    }
+    to {
+        width: 22vw;
+    }
+}
+
+
+/*
+@keyframes flamand-rose {
+    from {
+        width: 4vw;
+    }
+    to {
+        width: 40vw;
+    }
+}*/
