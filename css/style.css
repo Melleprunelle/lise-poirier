@@ -242,6 +242,7 @@ header div:first-child {
 .presentation {
     display: block;
     background-color: #C5142C;
+/*    height: 1000px;*/
 }
 
 .presentation img {
@@ -270,6 +271,57 @@ header div:first-child {
     margin-bottom: 75px;
 }
 
+.div-present {
+    height: 75vh;;
+    background-color: #d2ebf9;
+    padding: 0px;
+    background-image: url(../img/lise.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 138%;
+    margin-bottom: 150px;
+}
+
+.present {
+    height: 100%;
+    background-color: #c5142c;
+    padding: 0px;
+    border-right: 1px solid white;
+}
+
+#present-1 {
+    background-image: url(../img/instagram-logo.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#present-2 {
+    background-image: url(../img/settings.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#present-3 {
+    background-image: url(../img/computer.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hover-present {
+    background-color: #d2ebf9;
+    width: 100%;
+    height: 100%;
+    opacity: 0;/*
+    transform: 1s;*/
+    padding: 50px;
+    font-size: 1.2em;
+    color: darkcyan;
+}
+
+/*
 .presentation p {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -300,7 +352,7 @@ header div:first-child {
     border-radius: 0px;
     -webkit-filter: hue-rotate(175deg);
     filter: hue-rotate(175deg);
-}
+}*/
 
 
 /* ==========================================================================
@@ -352,7 +404,6 @@ header div:first-child {
     display: inline-block;
     vertical-align: bottom;
     margin-bottom: 0px;
-    cursor: pointer;
     width: 10vw;
     border-radius: 0;
     margin-top: 5vh;
@@ -368,7 +419,7 @@ header div:first-child {
     display: inline-block;
     margin: 0px;
     margin-left: -4vw;
-    font-size: 1.3em;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
@@ -376,40 +427,8 @@ header div:first-child {
     transform: rotateY(180deg);
 }
 
-.flamand {
-    animation-name: flamand-rose;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 10s;
-}
-
-.elephant {
-    animation-name: elephant;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 10s;
-    animation-delay: 8s;
-}
-
 .elephant-texte {
     margin-left: -1vw !important;
-}
-
-.bear {
-    animation-name: bear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 10s;
-    animation-delay: 3s;
-}
-
-.seal {
-    animation-name: seal;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 10s;
-    animation-delay: 12s;
-
 }
 
 .seal-img {
@@ -419,50 +438,3 @@ header div:first-child {
 .seal-texte {
     margin-left: 1vw !important;
 }
-
-@keyframes flamand-rose {
-    from {
-        width: 5vw;
-    }
-    to {
-        width: 35vw;
-    }
-}
-
-@keyframes elephant {
-    from {
-        width: 5vw;
-    }
-    to {
-        width: 35vw;
-    }
-}
-
-@keyframes bear {
-    from {
-        width: 5vw;
-    }
-    to {
-        width: 43vw;
-    }
-}
-
-@keyframes seal {
-    from {
-        width: 5vw;
-    }
-    to {
-        width: 22vw;
-    }
-}
-
-
-/*
-@keyframes flamand-rose {
-    from {
-        width: 4vw;
-    }
-    to {
-        width: 40vw;
-    }
-}*/

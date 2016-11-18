@@ -10,9 +10,6 @@
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="font/icone/font-awesome.css">
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
 
 <body class="container-fluid">
 
@@ -39,74 +36,95 @@
         </div>
     </nav>
 
-   <!-- HEADER -->
+    <!-- HEADER -->
     <header id="startchange" class="col-md-12">
-       <div>
-        <h1>WELCOME</h1>
-        <div class="separator-header"></div>
-        <h2>LISE POIRIER - GRAPHISTE &amp; WEBDESIGNER</h2>
-        <div class="separator-header"></div>
+        <div>
+            <h1>WELCOME</h1>
+            <div class="separator-header"></div>
+            <h2>LISE POIRIER - GRAPHISTE &amp; WEBDESIGNER</h2>
+            <div class="separator-header"></div>
         </div>
-        
+
         <div class="paysage-header col-md-6 col-md-offset-1">
-        <img src="img/svg/horse.svg" alt="">
-        <img src="img/svg/kremlin.svg" alt="Kremlin">
-        <img class="mountain" src="img/svg/mountain.svg" alt="Kremlin">
-        <img class="horse" src="img/svg/horse.svg" alt="">
+            <img src="img/svg/horse.svg" alt="">
+            <img src="img/svg/kremlin.svg" alt="Kremlin">
+            <img class="mountain" src="img/svg/mountain.svg" alt="Kremlin">
+            <img class="horse" src="img/svg/horse.svg" alt="">
         </div>
-        
+
         <div class="elements-volant col-md-1 col-md-offset-10">
             <img src="img/svg/balloon.svg" alt="balloon">
         </div>
     </header>
-    
+
     <!-- PRESENTATION -->
     <section class="presentation col-md-12">
-    <img src="img/svg/unicorn2.svg" alt="">
-    <h2>&#8226; La tête dans les étoiles et dresseuse de licornes &#8226;</h2>
-    <div class="separator-present"></div>
+        <img src="img/svg/unicorn2.svg" alt="">
+        <h2>&#8226; La tête dans les étoiles et dresseuse de licornes &#8226;</h2>
+        <div class="separator-present"></div>
+        <!--
     <div class="col-md-10 col-md-offset-1">
     <p class="col-md-4">
     <img src="img/svg/children/kite.svg" alt="">Si une image vaut mille mots, autant bien choisir les mots quand on en a peu. Mon expertise est à votre écoute avant de trouver l’idée et la traduire, en quelques mots.</p>
-    <p class="col-md-4"><img src="img/svg/mariage/fireworks.svg" alt="">La forme passe par les formes. Diplômée en communication graphique et formée en Web-développement, j'ai aujourd'hui le sens de l'image et de l'air numérique.</p>
+    <p class="col-md-4"><img src="img/svg/mariage/fireworks.svg" alt="">La forme passe par les formes. Dipdlômée en communication graphique et formée en Web-développement, j'ai aujourd'hui le sens de l'image et de l'air numérique.</p>
     <p class="col-md-4"><img src="img/svg/children/mill.svg" alt="">Un site web doit véhiculer vos valeurs et vos atouts. C’est pour cela qu’un soin particulier doit être donné au graphisme comme au contenu. Mon rôle est de répondre à ses attentes.</p>
-    </div>
+    </div>-->
+
+        <div class="div-present col-md-10 col-md-offset-1">
+            <div class="col-md-2 present" id="present-1">
+                <div class="hover-present" id="hover-present-1">
+                <p>Si une image vaut mille mots, autant bien choisir les mots quand on en a peu. Mon expertise est à votre écoute avant de trouver l’idée et la traduire, en quelques mots.</p>
+                </div>
+            </div>
+            <div class="col-md-2 present" id="present-2">
+                <div class="hover-present"></div>
+            </div>
+            <div class="col-md-2 present" id="present-3">
+                <div class="hover-present" id="hover-present-3">
+            </div>
+            </div>
+        </div>
     </section>
-    
+
     <!--MES COMPETENCES -->
     <section class="competence presentation col-md-12">
-       <img src="img/svg/magic-wand.svg" alt="">
-    <h2>&#8226; Mais toujours avec plus d'un tour dans son chapeau &#8226;</h2>
-    <div class="separator-competence"></div>
-    <div class="competence-indi col-md-8 col-md-offset-2">
-        <h3>HTML5</h3>
-        <div class="flamand"></div>
-        <img src="img/svg/cirque/flamingo.svg" alt="">
-        <p>Comme une reine</p>
-    </div>   
-     <div class="competence-indi col-md-8 col-md-offset-2">
-        <h3>CSS3</h3>
-        <div class="elephant"></div>
-        <img src="img/svg/cirque/elephant.svg" alt="" class="img-rotate">
-        <p class="elephant-texte">Comme un roi</p>
-    </div>  
-    <div class="competence-indi col-md-8 col-md-offset-2">
-        <h3>JS</h3>
-        <div class="bear"></div>
-        <img src="img/svg/cirque/bear.svg" alt="">
-        <p>Comme un fou</p>
-    </div> 
-    <div class="competence-indi col-md-8 col-md-offset-2">
-        <h3>ANGULAR JS</h3>
-        <div class="seal"></div>
-        <img src="img/svg/cirque/seal.svg" class="img-rotate seal-img" alt="">
-        <p class="seal-texte">Comme une princesse</p>
-    </div>   
+        <img src="img/svg/magic-wand.svg" alt="">
+        <h2>&#8226; Mais toujours avec plus d'un tour dans son chapeau &#8226;</h2>
+        <div class="separator-competence"></div>
+        <div class="competence-indi col-md-8 col-md-offset-2">
+            <h3>HTML5</h3>
+            <div id="flamand"></div>
+            <img src="img/svg/cirque/flamingo.svg" alt="">
+            <p>Comme une reine / 90%</p>
+        </div>
+        <div class="competence-indi col-md-8 col-md-offset-2">
+            <h3>CSS3</h3>
+            <div id="elephant"></div>
+            <img src="img/svg/cirque/elephant.svg" alt="" class="img-rotate">
+            <p class="elephant-texte">Comme un roi / 85%</p>
+        </div>
+        <div class="competence-indi col-md-8 col-md-offset-2">
+            <h3>JS</h3>
+            <div id="bear"></div>
+            <img src="img/svg/cirque/bear.svg" alt="">
+            <p>Comme un fou / 60%</p>
+        </div>
+        <div class="competence-indi col-md-8 col-md-offset-2">
+            <h3>ANGULAR JS</h3>
+            <div id="seal"></div>
+            <img src="img/svg/cirque/seal.svg" class="img-rotate seal-img" alt="">
+            <p class="seal-texte">Comme un soldat / 70%</p>
+        </div>
     </section>
 
 
 
 
 </body>
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/inview.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 </html>
