@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    color: #E02753;
+    color: #333;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 2.2em;
@@ -73,7 +73,7 @@ h2 {
 .navbar {
     border-radius: 0px;
     background-color: transparent;
-    border: 0px solid #C5142C;
+    border: 0px solid #333;
 }
 
 .navbar-left li:hover {
@@ -87,7 +87,7 @@ h2 {
 
 .navbar a {
     text-transform: uppercase;
-    color: #C5142C !important;
+    color: #333 !important;
     font-family: "Opens Sans", sans-serif;
     font-size: 1em;
 }
@@ -231,7 +231,7 @@ header div:first-child {
 
 .separator-header {
     width: 55%;
-    border-bottom: 2px solid #C5142C;
+    border-bottom: 2px solid #333;
 }
 
 
@@ -241,15 +241,14 @@ header div:first-child {
 
 .presentation {
     display: block;
-    background-color: #C5142C;
-/*    height: 1000px;*/
+    background-color: #222;
 }
 
 .presentation img {
     width: 200px;
     display: block;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 75px;
     border-radius: 100%;
     margin-bottom: 50px;
     transition: 0.5s;
@@ -272,21 +271,25 @@ header div:first-child {
 }
 
 .div-present {
-    height: 75vh;;
+    height: 75vh;
+    ;
     background-color: #d2ebf9;
     padding: 0px;
     background-image: url(../img/lise.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 138%;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .present {
     height: 100%;
-    background-color: #c5142c;
+    background-color: darkcyan;
     padding: 0px;
     border-right: 1px solid white;
+    max-width: 66.66%;
 }
 
 #present-1 {
@@ -314,45 +317,38 @@ header div:first-child {
     background-color: #d2ebf9;
     width: 100%;
     height: 100%;
-    opacity: 0;/*
-    transform: 1s;*/
+    opacity: 0;
     padding: 50px;
     font-size: 1.2em;
     color: darkcyan;
-}
-
-/*
-.presentation p {
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border: 5px solid #C5142C;
-    padding: 50px 45px 50px 45px;
-    margin-top: 30px;
-    margin-bottom: 150px;
-    background-color: ghostwhite;
-    color: darkcyan;
     text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: 0.8s;
-    cursor: default;
-    height: 55vh;
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.presentation p:hover {
-    color: whitesmoke;
-    background-color: darkcyan;
-    box-shadow: none;
+.hover-present h4 {
+    margin-bottom: 0px;
+    font-size: 3em;
+    font-family: 'Lovelo-black';
+    color: #333;
 }
 
-.presentation p img:first-child {
-    width: 100px;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    border-radius: 0px;
-    -webkit-filter: hue-rotate(175deg);
-    filter: hue-rotate(175deg);
-}*/
+.hover-present p {
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: 'Open Sans';
+    color: #333;
+    width: 75%;
+}
+
+.separator-hover-present {
+    width: 50%;
+    border-bottom: 2px solid #333;
+}
 
 
 /* ==========================================================================
@@ -383,9 +379,9 @@ header div:first-child {
 }
 
 .competence-indi h3 {
-    color: #C5142C;
+    color: ;
     font-weight: 500;
-    color: #E02753;
+    color: ;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     font-size: 2.5em;
@@ -421,6 +417,7 @@ header div:first-child {
     margin-left: -4vw;
     font-size: 1em;
     text-transform: uppercase;
+    color: darkcyan;
 }
 
 .img-rotate {

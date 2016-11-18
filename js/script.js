@@ -34,17 +34,14 @@ $('#present-1').ready(function () {
     $('#present-1').mouseenter(function () {
         $(this).css("width", "66.66%");
         $(this).css("transition", "1s");
-        $('#hover-present-1').mouseenter(function () {
             var div = $('#hover-present-1');
             div.animate({
                 width: '100%',
                 opacity: '1'
             }, "slow");
-        });
     });
     $('#present-1').mouseleave(function () {
-        $(this).css("width", "16.66666667%");
-           $('#hover-present-1').mouseleave(function () {
+        $(this).css("width", "16.66%");
             var div = $('#hover-present-1');
             div.animate({
                 width: '100%',
@@ -52,8 +49,48 @@ $('#present-1').ready(function () {
                 transition: '0s'
             }, "slow");
         });
-    
+});
+
+$('#present-2').ready(function () {
+    $('#present-2').mouseenter(function () {
+        $(this).css("width", "66.66%");
+        $(this).css("transition", "1s");
+            var div = $('#hover-present-2');
+            div.animate({
+                width: '100%',
+                opacity: '1'
+            }, "slow");
     });
+    $('#present-2').mouseleave(function () {
+        $(this).css("width", "16.66%");
+            var div = $('#hover-present-2');
+            div.animate({
+                width: '100%',
+                opacity: '0',
+                transition: '0s'
+            }, "slow");
+        });
+});
+
+$('#present-3').ready(function () {
+    $('#present-3').mouseenter(function () {
+        $(this).css("width", "66.66%");
+        $(this).css("transition", "1s");
+            var div = $('#hover-present-3');
+            div.animate({
+                width: '100%',
+                opacity: '1'
+            }, "slow");
+    });
+    $('#present-3').mouseleave(function () {
+        $(this).css("width", "16.66%");
+            var div = $('#hover-present-3');
+            div.animate({
+                width: '100%',
+                opacity: '0',
+                transition: '0s'
+            }, "slow");
+        });
 });
 
 //barre de progression
