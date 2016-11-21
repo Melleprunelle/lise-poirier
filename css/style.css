@@ -449,12 +449,11 @@ header div:first-child {
 
 .projets {
     padding-bottom: 50px;
-    margin-bottom: 50px;
     height: 100%;
 }
 
 .pingus {
-    width: 7.5vw;
+    width: 8.5vw !important;
     background-color: lightblue;
     border: 10px solid lightblue;
 }
@@ -585,4 +584,41 @@ header div:first-child {
 .voir-plus:hover {
     background-color: whitesmoke;
     color: #c5142c;
+}
+
+
+
+
+.contact {
+    background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
+    height: 100vh;
+}
+
+.contact h2 {
+    color: darkcyan;
+}
+
+.contact img {
+    background-color: darkcyan;
+    border: 10px solid darkcyan;
+    width: 16vh;
+}
+
+form {
+    margin-top: 25px;
+}
+
+.contact label {
+    color: darkcyan;
+    font-size: 1.5em;
+    margin-left: -15px;
+}
+
+.contact input {
+    background-color: transparent;
+    color: darkcyan;
+    height: 50px;
+    border: 1px solid darkcyan;
+    margin-bottom: 10px;
+    outline-color: whitesmoke;
 }
