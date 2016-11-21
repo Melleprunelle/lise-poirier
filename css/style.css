@@ -246,7 +246,7 @@ header div:first-child {
 }
 
 .presentation img {
-    width: 10vw;
+    width: 9vw;
     display: block;
     margin: 0 auto;
     border-radius: 100%;
@@ -358,6 +358,7 @@ header div:first-child {
 
 .competence {
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
+    height: 100%;
 }
 
 .section-competence {
@@ -439,4 +440,149 @@ header div:first-child {
 
 .lion {
     transform: translateY(10px);
+}
+
+
+/* ==========================================================================
+   PROJETS
+   ========================================================================== */
+
+.projets {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+.pingus {
+    width: 7.5vw;
+    background-color: lightblue;
+    border: 10px solid lightblue;
+}
+
+.hover-projet {
+    width: 300px;
+    height: 500px;
+    padding: 0px;
+    display: inline-block;
+    margin: 60px;
+}
+
+.hover-projet a {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.hover-projet figure {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    background: #c5142c;
+}
+
+.hover-projet figure img {
+    position: relative;
+    display: block;
+    width: 170%;
+    transform: translateY(35vh) translateX(-20%);
+    opacity: 1;
+    border-radius: 0;
+    margin: 0px;
+}
+
+.hover-projet figcaption {
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.hover-projet figcaption h2 {
+    margin: 0px 0 20px 0;
+    color: #3498db;
+    padding-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 130%;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    font-weight: 600;
+    color: #c5142c;
+}
+
+.hover-projet figcaption p {
+    padding: 0 20px;
+    color: #333;
+    font-weight: 300;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.hover-projet figcaption h2,
+.hover-projet figcaption p {
+    margin-top: 18px;
+    font-family: "Open Sans";
+}
+
+.hover-projet figure button {
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    bottom: 0px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #c5142c;
+}
+
+.hover-projet figure button:hover {
+    opacity: 0.7;
+}
+
+.hover-projet svg {
+    position: absolute;
+    top: -1px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+
+.hover-projet svg path {
+    fill: whitesmoke;
+}
+
+.hover-projet a:hover figure img {
+    opacity: 0.7;
+    transform: translateY(0) translateX(-20%);
+}
+
+.hover-projet a:hover figcaption p {
+    opacity: 0;
+}
+
+#affichage-projet {
+    display: none;
+}
+
+.voir-plus {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 0;
+    color: white;
+    font-size: 4em;
+    background-color: #c5142c;
+}
+
+.voir-plus:hover {
+    background-color: whitesmoke;
+    color: #c5142c;
 }
