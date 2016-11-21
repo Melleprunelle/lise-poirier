@@ -33,7 +33,7 @@ function affichageprojet() {
 $('#present-1').ready(function () {
     $('#present-1').mouseenter(function () {
         $(this).css("width", "66.66%");
-        $(this).css("transition", "1s");
+        $(this).css("transition", "0.5s");
             var div = $('#hover-present-1');
             div.animate({
                 width: '100%',
@@ -54,7 +54,7 @@ $('#present-1').ready(function () {
 $('#present-2').ready(function () {
     $('#present-2').mouseenter(function () {
         $(this).css("width", "66.66%");
-        $(this).css("transition", "1s");
+        $(this).css("transition", "0.5s");
             var div = $('#hover-present-2');
             div.animate({
                 width: '100%',
@@ -75,7 +75,7 @@ $('#present-2').ready(function () {
 $('#present-3').ready(function () {
     $('#present-3').mouseenter(function () {
         $(this).css("width", "66.66%");
-        $(this).css("transition", "1s");
+        $(this).css("transition", "0.5s");
             var div = $('#hover-present-3');
             div.animate({
                 width: '100%',
@@ -97,12 +97,12 @@ $('#present-3').ready(function () {
 $('#flamand').on('inview', function (event, isInView) {
     if (isInView) {
         $(this).css({
-            "width": "35vw",
-            "transition": "3s"
+            "width": "14vw",
+            "transition": "4s"
         })
     } else {
         $(this).css({
-            "width": "5vw"
+            "width": "3vw"
         })
     }
 });
@@ -110,12 +110,12 @@ $('#flamand').on('inview', function (event, isInView) {
 $('#elephant').on('inview', function (event, isInView) {
     if (isInView) {
         $(this).css({
-            "width": "32vw",
-            "transition": "3s"
+            "width": "12vw",
+            "transition": "4s"
         })
     } else {
         $(this).css({
-            "width": "5vw"
+            "width": "3vw"
         })
     }
 });
@@ -123,12 +123,12 @@ $('#elephant').on('inview', function (event, isInView) {
 $('#bear').on('inview', function (event, isInView) {
     if (isInView) {
         $(this).css({
-            "width": "28vw",
-            "transition": "3s"
+            "width": "10vw",
+            "transition": "4s"
         })
     } else {
         $(this).css({
-            "width": "5vw"
+            "width": "3vw"
         })
     }
 });
@@ -136,12 +136,86 @@ $('#bear').on('inview', function (event, isInView) {
 $('#seal').on('inview', function (event, isInView) {
     if (isInView) {
         $(this).css({
-            "width": "20vw",
-            "transition": "3s"
+            "width": "9vw",
+            "transition": "4s"
         })
     } else {
         $(this).css({
-            "width": "5vw"
+            "width": "3vw"
         })
     }
 });
+
+$('#canon').on('inview', function (event, isInView) {
+    if (isInView) {
+        $(this).css({
+            "width": "9vw",
+            "transition": "4s"
+        })
+    } else {
+        $(this).css({
+            "width": "3vw"
+        })
+    }
+});
+$('#canon').on('inview', function (event, isInView) {
+    if (isInView) {
+        $(this).css({
+            "width": "9vw",
+            "transition": "4s"
+        })
+    } else {
+        $(this).css({
+            "width": "3vw"
+        })
+    }
+});
+
+$('#magician').on('inview', function (event, isInView) {
+    if (isInView) {
+        $(this).css({
+            "width": "9vw",
+            "transition": "4s"
+        })
+    } else {
+        $(this).css({
+            "width": "3vw"
+        })
+    }
+});
+$('#lion').on('inview', function (event, isInView) {
+    if (isInView) {
+        $(this).css({
+            "width": "9vw",
+            "transition": "4s"
+        })
+    } else {
+        $(this).css({
+            "width": "3vw"
+        })
+    }
+});
+
+$('#strongman').on('inview', function (event, isInView) {
+    if (isInView) {
+        $(this).css({
+            "width": "9vw",
+            "transition": "4s"
+        })
+    } else {
+        $(this).css({
+            "width": "3vw"
+        })
+    }
+});
+
+
+//Scroll fluid pour l'ancre
+$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});

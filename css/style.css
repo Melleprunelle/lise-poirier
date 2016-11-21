@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    color: #333;
+    color: #C5142C;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 2.2em;
@@ -73,7 +73,7 @@ h2 {
 .navbar {
     border-radius: 0px;
     background-color: transparent;
-    border: 0px solid #333;
+    border: 0px solid #C5142C;
 }
 
 .navbar-left li:hover {
@@ -87,7 +87,7 @@ h2 {
 
 .navbar a {
     text-transform: uppercase;
-    color: #333 !important;
+    color: #C5142C !important;
     font-family: "Opens Sans", sans-serif;
     font-size: 1em;
 }
@@ -231,7 +231,7 @@ header div:first-child {
 
 .separator-header {
     width: 55%;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #C5142C;
 }
 
 
@@ -242,22 +242,24 @@ header div:first-child {
 .presentation {
     display: block;
     background-color: #222;
+    height: 100vh;
 }
 
 .presentation img {
-    width: 200px;
+    width: 10vw;
     display: block;
     margin: 0 auto;
-    margin-top: 75px;
     border-radius: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     transition: 0.5s;
+    margin-top: 7vh;
 }
 
 .presentation h2 {
     text-align: center;
     color: whitesmoke;
-    margin-bottom: 50px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
     font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -265,21 +267,19 @@ header div:first-child {
 
 .separator-present {
     border-bottom: 1px solid whitesmoke;
-    width: 300px;
+    width: 40%;
     margin: auto;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
 }
 
 .div-present {
-    height: 75vh;
-    ;
+    height: 50%;
     background-color: #d2ebf9;
     padding: 0px;
     background-image: url(../img/lise.jpg);
-    background-size: contain;
+    background-size: 55%;
     background-repeat: no-repeat;
-    background-position: 138%;
-    margin-bottom: 100px;
+    background-position: 110%;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -294,27 +294,27 @@ header div:first-child {
 
 #present-1 {
     background-image: url(../img/instagram-logo.svg);
-    background-size: 50%;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #present-2 {
     background-image: url(../img/settings.svg);
-    background-size: 50%;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #present-3 {
     background-image: url(../img/computer.svg);
-    background-size: 50%;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .hover-present {
-    background-color: #d2ebf9;
+    background-color: whitesmoke;
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -322,7 +322,7 @@ header div:first-child {
     font-size: 1.2em;
     color: darkcyan;
     text-align: center;
-    transition: 2s;
+    transition: 0.2s;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -332,22 +332,23 @@ header div:first-child {
 
 .hover-present h4 {
     margin-bottom: 0px;
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Lovelo-black';
-    color: #333;
+    color: #C5142C;
 }
 
 .hover-present p {
     margin-top: 20px;
     font-size: 1em;
     font-family: 'Open Sans';
-    color: #333;
+    color: #C5142C;
     width: 75%;
 }
 
 .separator-hover-present {
     width: 50%;
-    border-bottom: 2px solid #333;
+    border-bottom: 1px solid #C5142C;
+    margin-top: 1vh;
 }
 
 
@@ -359,8 +360,15 @@ header div:first-child {
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
 }
 
-.competence:last-child {
-    margin-bottom: 150px;
+.section-competence {
+    border-right: 1px solid darkcyan;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.section-competence-2 {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 }
 
 .competence h2 {
@@ -368,31 +376,33 @@ header div:first-child {
 }
 
 .competence img {
-    width: 165px;
+    width: 8.5vw;
+    margin-top: 7vh;
 }
 
 .separator-competence {
     border-bottom: 1px solid darkcyan;
-    width: 300px;
+    width: 40%;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .competence-indi h3 {
     color: ;
     font-weight: 500;
-    color: ;
+    color: #c5142c;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
-    font-size: 2.5em;
+    font-size: 1.5em;
     display: inline-block;
+    text-transform: capitalize;
 }
 
 .competence-indi div {
     display: inline-block;
-    height: 3px;
+    height: 2px;
     width: 5vw;
-    margin-left: 20px;
+    margin-left: 1vw;
     background-color: #F79E00;
 }
 
@@ -400,9 +410,8 @@ header div:first-child {
     display: inline-block;
     vertical-align: bottom;
     margin-bottom: 0px;
-    width: 10vw;
+    width: 7vw;
     border-radius: 0;
-    margin-top: 5vh;
     margin-left: -5vw;
 }
 
@@ -414,24 +423,20 @@ header div:first-child {
     border: 0;
     display: inline-block;
     margin: 0px;
-    margin-left: -4vw;
+    margin-left: -1vw;
     font-size: 1em;
     text-transform: uppercase;
     color: darkcyan;
+}
+
+.text-competence {
+    margin-left: 0.5vw !important;
 }
 
 .img-rotate {
     transform: rotateY(180deg);
 }
 
-.elephant-texte {
-    margin-left: -1vw !important;
-}
-
-.seal-img {
-    width: 8vw !important;
-}
-
-.seal-texte {
-    margin-left: 1vw !important;
+.lion {
+    transform: translateY(10px);
 }

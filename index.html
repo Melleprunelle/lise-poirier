@@ -26,9 +26,10 @@
         <a class="navbar-brand" href="index.html">LISE POIRIER</a>
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#">WEB</a></li>
-                <li><a href="#">GRAPHISME</a></li>
+                <li><a href="#startchange" class="js-scrollTo">HOME</a></li>
+                <li><a href="#presentation" class="js-scrollTo">Présentation</a></li>
+                <li><a href="#competence" class="js-scrollTo">Compétences</a></li>
+                <li><a href="#">Projets</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">CONTACT</a></li>
@@ -58,7 +59,7 @@
     </header>
 
     <!-- PRESENTATION -->
-    <section class="presentation col-md-12">
+    <section class="presentation col-md-12" id="presentation">
         <img src="img/svg/unicorn2.svg" alt="">
         <h2>&#8226; La tête dans les étoiles et dresseuse de licornes &#8226;</h2>
         <div class="separator-present"></div>
@@ -66,56 +67,88 @@
         <div class="div-present col-md-10 col-md-offset-1">
             <div class="col-md-2 present" id="present-1">
                 <div class="hover-present" id="hover-present-1">
-                <h4>TROLOLO</h4>
-                <div class="separator-hover-present"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellat, odit quas dignissimos suscipit soluta non maiores iusto iure debitis quae alias, quibusdam eligendi natus, quam ut obcaecati quasi? Itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsa id iusto, amet asperiores molestiae laborum! Veniam veritatis cupiditate esse aspernatur id quisquam, officiis sint, quibusdam, error tempora repudiandae rem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates vero nostrum, ipsa facilis, fugit ipsum error dolorum rem laudantium accusantium eaque quibusdam nam veritatis, possimus in assumenda sed cum. Dolores.</p>
+                    <h4>Votre image</h4>
+                    <div class="separator-hover-present"></div>
+                    <p>Si une image vaut mille mots, autant bien choisir les mots quand on en a peu. Mon expertise est à votre écoute avant de trouver l’idée et la traduire, en quelques mots.</p>
                 </div>
             </div>
             <div class="col-md-2 present" id="present-2">
                 <div class="hover-present" id="hover-present-2">
-                   <h4>TROLOLO 2</h4>
-                <div class="separator-hover-present"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellat, odit quas dignissimos suscipit soluta non maiores iusto iure debitis quae alias, quibusdam eligendi natus, quam ut obcaecati quasi? Itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsa id iusto, amet asperiores molestiae laborum! Veniam veritatis cupiditate esse aspernatur id quisquam, officiis sint, quibusdam, error tempora repudiandae rem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates vero nostrum, ipsa facilis, fugit ipsum error dolorum rem laudantium accusantium eaque quibusdam nam veritatis, possimus in assumenda sed cum. Dolores.</p>
+                    <h4>Votre communication</h4>
+                    <div class="separator-hover-present"></div>
+                    <p>La forme passe par les formes. Diplômée en communication graphique et formée en Web-développement, j'ai aujourd'hui le sens de l'image et de l'air numérique.</p>
                 </div>
             </div>
             <div class="col-md-2 present" id="present-3">
                 <div class="hover-present" id="hover-present-3">
-                  <h4>TROLOLO 3</h4>
-                <div class="separator-hover-present"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellat, odit quas dignissimos suscipit soluta non maiores iusto iure debitis quae alias, quibusdam eligendi natus, quam ut obcaecati quasi? Itaque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsa id iusto, amet asperiores molestiae laborum! Veniam veritatis cupiditate esse aspernatur id quisquam, officiis sint, quibusdam, error tempora repudiandae rem?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates vero nostrum, ipsa facilis, fugit ipsum error dolorum rem laudantium accusantium eaque quibusdam nam veritatis, possimus in assumenda sed cum. Dolores.</p>
-            </div>
+                    <h4>Votre design</h4>
+                    <div class="separator-hover-present"></div>
+                    <p>Un site web doit véhiculer vos valeurs et vos atouts. C’est pour cela qu’un soin particulier doit être donné au graphisme comme au contenu. Mon rôle est de répondre à ses attentes.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!--MES COMPETENCES -->
-    <section class="competence presentation col-md-12">
+    <section class="competence presentation col-md-12" id="competence">
         <img src="img/svg/magic-wand.svg" alt="">
         <h2>&#8226; Mais toujours avec plus d'un tour dans son chapeau &#8226;</h2>
         <div class="separator-competence"></div>
-        <div class="competence-indi col-md-8 col-md-offset-2">
-            <h3>HTML5</h3>
-            <div id="flamand"></div>
-            <img src="img/svg/cirque/flamingo.svg" alt="">
-            <p>Comme une reine / 90%</p>
+
+        <!-- TECHNO-->
+        <div class="col-md-5 col-md-offset-1 section-competence">
+            <div class="competence-indi col-md-12">
+                <h3>HTML5</h3>
+                <div id="flamand"></div>
+                <img src="img/svg/cirque/flamingo.svg" alt="">
+                <p>Comme une reine / 90%</p>
+            </div>
+            <div class="competence-indi col-md-12">
+                <h3>CSS3</h3>
+                <div id="elephant"></div>
+                <img src="img/competence/elephant.svg" alt="" class="img-rotate">
+                <p>Comme un roi / 85%</p>
+            </div>
+            <div class="competence-indi col-md-12">
+                <h3>JS</h3>
+                <div id="bear"></div>
+                <img src="img/competence/bear.svg" alt="">
+                <p>Comme un fou / 60%</p>
+            </div>
+            <div class="competence-indi col-md-12">
+                <h3>Angular JS</h3>
+                <div id="seal"></div>
+                <img src="img/competence/seal.svg" class="img-rotate" alt="">
+                <p class="text-competence">Comme un soldat / 70%</p>
+            </div>
         </div>
-        <div class="competence-indi col-md-8 col-md-offset-2">
-            <h3>CSS3</h3>
-            <div id="elephant"></div>
-            <img src="img/svg/cirque/elephant.svg" alt="" class="img-rotate">
-            <p class="elephant-texte">Comme un roi / 85%</p>
-        </div>
-        <div class="competence-indi col-md-8 col-md-offset-2">
-            <h3>JS</h3>
-            <div id="bear"></div>
-            <img src="img/svg/cirque/bear.svg" alt="">
-            <p>Comme un fou / 60%</p>
-        </div>
-        <div class="competence-indi col-md-8 col-md-offset-2">
-            <h3>ANGULAR JS</h3>
-            <div id="seal"></div>
-            <img src="img/svg/cirque/seal.svg" class="img-rotate seal-img" alt="">
-            <p class="seal-texte">Comme un soldat / 70%</p>
+
+        <!-- COMPETENCE TRANSVERSALES-->
+        <div class="col-md-5 col-md-offset-1 section-competence-2">
+            <div class="competence-indi col-md-12">
+                <h3>adaptabilité</h3>
+                <div id="canon"></div>
+                <img src="img/competence/canon.svg" alt="">
+                <p>Avec motivation / 90%</p>
+            </div>
+            <div class="competence-indi col-md-12">
+                <h3>Créative</h3>
+                <div id="magician"></div>
+                <img src="img/competence/magician.svg" alt="">
+                <p>Avec folie / 80%</p>
+            </div>
+            <div class="competence-indi col-md-12">
+                <h3>Autonome</h3>
+                <div id="lion"></div>
+                <img src="img/competence/strongman.svg" alt="">
+                <p>Avec facilité / 70%</p>
+            </div>
+            <div class="competence-indi col-md-12">
+                <h3>En équipe</h3>
+                <div id="strongman"></div>
+                <img src="img/competence/lion.svg" class="lion" alt="">
+                <p>Avec motivation / 70%</p>
+            </div>
         </div>
     </section>
 
