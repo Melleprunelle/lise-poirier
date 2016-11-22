@@ -128,6 +128,8 @@ header {
     height: 100vh;
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
     position: relative;
+       background-image: url(../img/symphony.png);
+    background-attachment: fixed;
 }
 
 header div:first-child {
@@ -241,18 +243,20 @@ header div:first-child {
 
 .presentation {
     display: block;
-    background-color: #222;
-    height: 100vh;
+    background-color: #2B1000;
+    height: 900px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #610017;
 }
 
 .presentation img {
-    width: 9vw;
+    width: 150px;
     display: block;
     margin: 0 auto;
     border-radius: 100%;
     margin-bottom: 25px;
     transition: 0.5s;
-    margin-top: 7vh;
 }
 
 .presentation h2 {
@@ -269,17 +273,17 @@ header div:first-child {
     border-bottom: 1px solid whitesmoke;
     width: 40%;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 75px;
 }
 
 .div-present {
-    height: 50%;
+    height: 430px;
     background-color: #d2ebf9;
     padding: 0px;
     background-image: url(../img/lise.jpg);
-    background-size: 55%;
+    background-size: 61%;
     background-repeat: no-repeat;
-    background-position: 110%;
+    background-position: 125%;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -359,17 +363,19 @@ header div:first-child {
 .competence {
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
     height: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url(../img/symphony.png);
+    background-attachment: fixed;
 }
 
 .section-competence {
     border-right: 1px solid darkcyan;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 20px;
 }
 
 .section-competence-2 {
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 20px;
 }
 
 .competence h2 {
@@ -377,15 +383,14 @@ header div:first-child {
 }
 
 .competence img {
-    width: 8.5vw;
-    margin-top: 7vh;
+    width: 120px;
 }
 
 .separator-competence {
     border-bottom: 1px solid darkcyan;
     width: 40%;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 75px;
 }
 
 .competence-indi h3 {
@@ -408,10 +413,11 @@ header div:first-child {
 }
 
 .competence-indi img {
+    margin-top: 30px;
     display: inline-block;
     vertical-align: bottom;
     margin-bottom: 0px;
-    width: 7vw;
+    width: 100px;
     border-radius: 0;
     margin-left: -5vw;
 }
@@ -448,14 +454,20 @@ header div:first-child {
    ========================================================================== */
 
 .projets {
-    padding-bottom: 50px;
     height: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .pingus {
-    width: 8.5vw !important;
+    width: 120px !important;
     background-color: lightblue;
     border: 10px solid lightblue;
+}
+
+.projet2 {
+    margin: 0 auto;
+    width: 1028px;
 }
 
 .hover-projet {
@@ -463,7 +475,7 @@ header div:first-child {
     height: 500px;
     padding: 0px;
     display: inline-block;
-    margin: 60px;
+    margin: 20px;
 }
 
 .hover-projet a {
@@ -571,14 +583,16 @@ header div:first-child {
 
 .voir-plus {
     display: block;
-    margin: 0 auto;
-    height: 100px;
-    width: 100px;
+    margin: 0px auto;
+    margin-top: 50px;
+    height: 90px;
+    width: 90px;
     border-radius: 100%;
     border: 0;
     color: white;
-    font-size: 4em;
+    font-size: 3.5em;
     background-color: #c5142c;
+    transition: 0.5s;
 }
 
 .voir-plus:hover {
@@ -587,11 +601,17 @@ header div:first-child {
 }
 
 
-
+/* ==========================================================================
+   CONNTACT
+   ========================================================================== */
 
 .contact {
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
-    height: 100vh;
+    height: 1000px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+        background-image: url(../img/symphony.png);
+    background-attachment: fixed;
 }
 
 .contact h2 {
@@ -601,7 +621,7 @@ header div:first-child {
 .contact img {
     background-color: darkcyan;
     border: 10px solid darkcyan;
-    width: 16vh;
+    width: 120px;
 }
 
 form {

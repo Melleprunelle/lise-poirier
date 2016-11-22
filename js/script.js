@@ -96,7 +96,7 @@ $('#present-3').ready(function () {
 $('#flamand').on('inview', function (event, isInView) {
     if (isInView) {
         $(this).css({
-            "width": "14vw",
+            "width": "12vw",
             "transition": "4s"
         })
     } else {
