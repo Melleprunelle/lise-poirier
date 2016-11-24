@@ -48,14 +48,14 @@ h2 {
     margin-bottom: 20px;
 }
 
-.fa {
+i {
     color: darkcyan;
     margin-top: 10px;
-    font-size: 1.6em;
+    font-size: 1.6em !important;
 }
 
-.fa:hover {
-    font-size: 2em;
+i:hover {
+    font-size: 2em !important;
 }
 
 .icone {
@@ -364,7 +364,7 @@ header div:first-child {
 
 .hover-present p {
     margin-top: 20px;
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Open Sans';
     color: #C5142C;
     width: 75%;
@@ -624,7 +624,7 @@ header div:first-child {
 
 
 /* ==========================================================================
-   CONNTACT
+   CONTACT
    ========================================================================== */
 
 .contact {
@@ -679,3 +679,67 @@ header div:first-child {
 .contact button:hover {
     background-color: #610017;
 }
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+footer {
+    height: 20vh;   
+    background-color: #610017;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer i {
+    color: whitesmoke;
+    margin: 5px;
+}
+
+footer p {
+    color: whitesmoke;
+}
+
+.separator-footer {
+    height: 1px;
+    width: 7%;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+
+/* ==========================================================================
+   RESPONSIVE
+ ========================================================================== */
+
+@media (max-width: 999px) {
+    .display-responsive {
+        display: none;
+    }
+    
+    .responsive {
+        height: 100vh;
+        width: 100%;
+        background-color: #610017;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .responsive h4 {
+        color: whitesmoke;
+        font-size: 2em;
+        max-width: 65%;
+        text-align: center;
+    }
+    .responsive img {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+}
+
