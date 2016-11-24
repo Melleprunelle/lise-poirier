@@ -633,6 +633,11 @@ header div:first-child {
     padding-bottom: 75px;
     background-image: url(../img/symphony.png);
     background-attachment: fixed;
+    height: 100%;
+}
+
+form {
+    display: none;
 }
 
 .contact h2 {
@@ -678,6 +683,23 @@ header div:first-child {
 
 .contact button:hover {
     background-color: #610017;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.3em;
+    color: #610017;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact a {
+    color: darkcyan;
+}
+
+.contact a:hover {
+    color: #610017;
 }
 
 
