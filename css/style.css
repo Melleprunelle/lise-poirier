@@ -600,7 +600,7 @@ header div:first-child {
 }
 
 #affichage-projet {
-  display: none;
+    display: none;
 }
 
 .voir-plus {
@@ -686,7 +686,7 @@ header div:first-child {
    ========================================================================== */
 
 footer {
-    height: 20vh;   
+    height: 20vh;
     background-color: #610017;
     display: flex;
     flex-direction: column;
@@ -716,11 +716,14 @@ footer p {
    RESPONSIVE
  ========================================================================== */
 
+.responsive {
+    display: none;
+}
+
 @media (max-width: 999px) {
     .display-responsive {
         display: none;
     }
-    
     .responsive {
         height: 100vh;
         width: 100%;
@@ -730,7 +733,6 @@ footer p {
         justify-content: center;
         align-items: center;
     }
-    
     .responsive h4 {
         color: whitesmoke;
         font-size: 2em;
@@ -742,4 +744,3 @@ footer p {
         margin-bottom: 20px;
     }
 }
-
