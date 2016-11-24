@@ -48,6 +48,27 @@ h2 {
     margin-bottom: 20px;
 }
 
+.fa {
+    color: darkcyan;
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+
+.fa:hover {
+    font-size: 2em;
+}
+
+.icone {
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* ==========================================================================
    NAV
@@ -128,7 +149,7 @@ header {
     height: 100vh;
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
     position: relative;
-       background-image: url(../img/symphony.png);
+    background-image: url(../img/symphony.png);
     background-attachment: fixed;
 }
 
@@ -292,7 +313,7 @@ header div:first-child {
     height: 100%;
     background-color: darkcyan;
     padding: 0px;
-    border-right: 1px solid white;
+    border-right: 1px solid whitesmoke;
     max-width: 66.66%;
 }
 
@@ -457,6 +478,7 @@ header div:first-child {
     height: 100%;
     padding-top: 75px;
     padding-bottom: 75px;
+    overflow: hidden;
 }
 
 .pingus {
@@ -545,7 +567,7 @@ header div:first-child {
     font-size: 2em;
     font-weight: bold;
     bottom: 0px;
-    color: white;
+    color: whitesmoke;
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -578,7 +600,7 @@ header div:first-child {
 }
 
 #affichage-projet {
-    display: none;
+  display: none;
 }
 
 .voir-plus {
@@ -589,7 +611,7 @@ header div:first-child {
     width: 90px;
     border-radius: 100%;
     border: 0;
-    color: white;
+    color: whitesmoke;
     font-size: 3.5em;
     background-color: #c5142c;
     transition: 0.5s;
@@ -607,10 +629,9 @@ header div:first-child {
 
 .contact {
     background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
-    height: 1000px;
     padding-top: 75px;
     padding-bottom: 75px;
-        background-image: url(../img/symphony.png);
+    background-image: url(../img/symphony.png);
     background-attachment: fixed;
 }
 
@@ -624,14 +645,11 @@ header div:first-child {
     width: 120px;
 }
 
-form {
-    margin-top: 25px;
-}
-
 .contact label {
     color: darkcyan;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: -15px;
+    font-weight: 400;
 }
 
 .contact input {
@@ -641,4 +659,23 @@ form {
     border: 1px solid darkcyan;
     margin-bottom: 10px;
     outline-color: whitesmoke;
+}
+
+.contact textarea {
+    background-color: transparent;
+    outline-color: whitesmoke;
+    border: 1px solid darkcyan;
+}
+
+.contact button {
+    height: 50px;
+    margin-top: 15px;
+    background-color: darkcyan;
+    border: 0;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+.contact button:hover {
+    background-color: #610017;
 }

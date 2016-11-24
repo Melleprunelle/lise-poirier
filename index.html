@@ -7,15 +7,35 @@
 </head>
 
 <link rel="stylesheet" href="css/bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="font/fonts/font-awesome.css">
 <link rel="stylesheet" href="css/style.css">
-<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">-->
-<link rel="stylesheet" href="font/icone/font-awesome.css">
 
 
 <body class="container-fluid">
-
     <!--NAVBAR DU SITE-->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="icone">
+        <a href="#startchange" class="js-scrollTo">
+            <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="#presentation" class="js-scrollTo">
+            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="#competence" class="js-scrollTo">
+            <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="#projets" class="js-scrollTo">
+            <i class="fa fa-rocket fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="#contact" class="js-scrollTo">
+            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="#startchange" class="js-scrollTo">
+            <i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i>
+        </a>
+    </nav>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-scroll">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -159,173 +179,248 @@
         <img src="img/svg/penguin.svg" alt="" class="pingus">
         <h2>&#8226; Ce pingouin n'a pas participé aux réalisations ci-dessous &#8226;</h2>
         <div class="separator-present"></div>
-        
+
         <section class="projet2">
-        <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-           
-        <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-           
-        <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/site-bowling-alma/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/bowling.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>HOME PAGE BOWLING ALMA</h2>
+                            <p>Réalisation de la page d'accueil d'un site pour le Bowling Rennes Alma.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/tinyGiant.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/tinygiant.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>Tiny Giant</h2>
+                            <p>Entrainement d'exécution technique du site internet Tiny Giant.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/bose.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/bose.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>Bose</h2>
+                            <p>Reprise de la page d'accueil du site de Bose en html et css.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
         </section>
-        
+
         <section id="affichage-projet" class="projet2">
-         <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-           
+        
+          <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/branded.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/branded.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>Branded</h2>
+                            <p>Entrainement d'exécution technique du site internet Branded.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/dots.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/dots.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>Dots</h2>
+                            <p>Entrainement d'exécution technique du site internet Dots.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        
+                     
         <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-           
-        <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-           
-        <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-           
-        <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-           
-        <div id="hover-projet" class="hover-projet clearfix">
-            <a href="#" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
-                <figure>
-                    <img src="img/projets/img1.png" />
-                    <svg viewBox="0 0 180 400" preserveAspectRatio="none">
-                        <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
-                    </svg>
-                    <figcaption>
-                        <h2>Create Pro</h2>
-                        <p>Réalisation de ma toute première page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch.</p>
-                        <button>View</button>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-    </section>
+                <a href="http://123-veto.fr/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/123veto.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>123 VETO</h2>
+                            <p>Création d'un template personnalisé pour la clinique vétérinaire 123 VETO.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/audiotheme.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/audio.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>AUDIOTHEME</h2>
+                            <p>Projet d'aboutissement de la formation Web dans la techno du HTML5 et CSS3. Travail de responsive et de performances techniques.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div> 
+            
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/jquerypomodoro.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/pomodoro.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>POMODORO</h2>
+                            <p>Réalisation d'une application de Pomodoro pour l'organisation du travail.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/poneyclicker.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/poney.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>LE PONEY CLICKER</h2>
+                            <p>Mise en place de la techno JS au travers d'un poney clicker basique. C'est le même principe qu'un cookie clicker mais avec un little poney.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/js_quizz.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/quizz.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>QUIZZ JS</h2>
+                            <p>Réalisation d'un quizz à score en JS, HTML5 et CSS3.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            
+
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/startbootstrap.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/boostrap.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>BOOTSTRAP</h2>
+                            <p>Première prise en main de la techno boostrap avec un projet sur une page contenant la font awesome et des hovers.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="http://melleprunelle.github.io/pastime.github.io/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/pastime.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>PASTIME</h2>
+                            <p>Réalisation de ma seconde page dans le monde du Web. Reprise d'un projet Wordpress à recréer en front scratch. Première acquisition des réelles bases css</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div id="hover-projet" class="hover-projet clearfix">
+                <a href="https://melleprunelle.github.io/Melleprunelle.createpro.io.github/" target="_blank" data-path-hover="m 0,0 0,75.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+                    <figure>
+                        <img src="img/projets/create.png" />
+                        <svg viewBox="0 0 180 400" preserveAspectRatio="none">
+                            <path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z" />
+                        </svg>
+                        <figcaption>
+                            <h2>Create Pro</h2>
+                            <p>Réalisation d'une première page HTML5 et CSS3. Reprise d'un projet Wordpress à recréer en front scratch.</p>
+                            <button>View</button>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
         <button onclick="affichageprojet()" class="voir-plus">+</button>
     </section>
-    
+
     <section class="presentation contact col-md-12" id="contact">
-      <img src="img/svg/crown.svg" alt="">
-       <h2>&#8226; N'hésitez pas à me contacter ! &#8226;</h2>
+        <img src="img/svg/crown.svg" alt="">
+        <h2>&#8226; N'hésitez pas à me contacter ! &#8226;</h2>
         <div class="separator-competence"></div>
         <form action="" class="col-md-8 col-md-offset-2">
-            <label for="" class="col-md-12">Trololo</label>
-            <input type="text" class="col-md-12" placeholder="trololo">
-        
-             <label for="" class="col-md-12">Trololo</label>
-            <input type="text" class="col-md-12" placeholder="trololo">
-        
-             <label for="" class="col-md-12">Trololo</label>
-            <input type="text" class="col-md-12" placeholder="trololo">
-            
-            <label for="" class="col-md-12">Message</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="col-md-6">
+                <label for="" class="col-md-12">Prénom Nom :</label>
+                <input type="text" class="col-md-12">
+            </div>
+
+            <div class="col-md-6">
+                <label for="" class="col-md-12">Adresse mail :</label>
+                <input type="text" class="col-md-12">
+            </div>
+            <div class="col-md-12">
+                <label for="" class="col-md-12">Sujet</label>
+                <input type="text" class="col-md-12">
+            </div>
+            <div class="col-md-12">
+                <label for="" class="col-md-12">Message</label>
+                <textarea name="" id="" rows="10" class="col-md-12"></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="col-md-4">Envoyer</button>
+            </div>
         </form>
     </section>
 

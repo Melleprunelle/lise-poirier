@@ -1,17 +1,15 @@
 //animation navbar fixed (transparence)
 $(document).ready(function () {
     var scroll_start = 0;
-    var startchange = $('#startchange');
+    var startchange = $('#navbar-scroll');
     var offset = startchange.offset();
     if (startchange.length) {
         $(document).scroll(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
-                $('.navbar').css('color', 'white');
-                $('.navbar').css('transition', '0.5s');
+                $('.navbar').css('display', 'none');
             } else {
-                $(".navbar").css('color', '#222');
-                $('.navbar').css('transition', '0.5s');
+                $(".navbar").css('display', 'block');
             }
         });
     }
