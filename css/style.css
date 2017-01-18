@@ -98,12 +98,7 @@ i:hover {
 }
 
 .navbar-left li:hover {
-    background-color: darkcyan;
-    opacity: 0.8;
-}
-
-.navbar-left a:hover {
-    color: whitesmoke !important;
+    border-bottom: 3px solid darkcyan;
 }
 
 .navbar a {
@@ -125,6 +120,12 @@ i:hover {
     padding-bottom: 0px !important;
 }
 
+.navbar-right a:hover {
+    padding-bottom: 12px !important;
+        border-bottom: 3px solid darkcyan;
+
+}
+
 .navbar-brand {
     font-size: 1.2em !important;
 }
@@ -135,6 +136,12 @@ i:hover {
 
 .navbar-default .navbar-toggle {
     border: 0px;
+}
+
+.pdf {
+    border-bottom: 3px solid #C5142C;
+    height: 50px;
+    color: violet;
 }
 
 

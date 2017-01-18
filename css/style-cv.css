@@ -1,0 +1,202 @@
+body {
+    padding: 0px;
+    margin: 0px 30px 35px 30px;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+aside {
+    width: 33%;
+    background-color: ghostwhite;
+    height: 138.5vh;
+    float: left;
+    border-right: 1px solid white;
+}
+
+aside img {
+    display: block;
+    width: 60%;
+    margin: 0vh 8vw;
+    margin-top: 2vh;
+    color: white;
+}
+
+aside h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: darkcyan;
+    font-size: 1.2em;
+}
+
+aside h2 {
+    text-align: center;
+    margin-top: 0.5vh;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: darkcyan;
+}
+
+aside a {
+    font-size: 0.9em;
+    text-align: center;
+    color: #610017;
+    text-decoration: none;
+}
+
+aside p {
+    margin: 0px;
+}
+
+aside article {
+    background-color: #610017;
+    margin-top: 3vh;
+    padding: 1.5vw;
+    color: white;
+    height: 100%;
+    border-bottom:  1px solid #610017;
+}
+
+aside i {
+    color: white;
+    display: inline-block;
+}
+
+article h3 {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0.3vh;
+    margin-top: 1.5vh;
+}
+
+article p {
+    padding-left: 2.3vw;
+    font-size: 0.9em;
+    margin-top: 0.5vh;
+}
+
+article a {
+    padding-left: 2.3vw;
+    color: white;
+    text-decoration: none;
+}
+
+#pourcent {
+    width: 85%;
+    height: 1px;
+    background-color: white;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+#autre {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+#proj {
+    width: 75%;
+    height: 1px;
+    background-color: white;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+#curieuse {
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+#equipe {
+    width: 70%;
+    height: 1px;
+    background-color: white;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+#orga {
+    width: 75%;
+    height: 1px;
+    background-color: white;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+#crea {
+    width: 85%;
+    height: 1px;
+    background-color: white;
+    margin-left: 2.3vw;
+    margin-top: 1vh;
+}
+
+section {
+    background-color: ghostwhite;
+}
+
+section article {
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    color: white;
+}
+
+section article i {
+    color: #610017;
+    padding-left: 4vw;
+    display: inline-block;
+    font-size: 1.2em !important;
+}
+
+section article h1 {
+    display: inline-block;
+    padding-left: 1vw;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #610017;
+    margin-bottom: 0.5vh;
+}
+
+section article div {
+    width: 55%;
+    margin-left: 34vw;
+    margin-top: 0px;
+    height: 1px;
+    background-color: #610017;
+}
+
+section h2 {
+    color: darkcyan;
+    margin-left: 34vw;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 1.3vh;
+    margin-bottom: 0vh;
+}
+
+section p {
+    color: #222;
+    padding-left: 34vw;
+    padding-right: 20px;
+    margin-top: 0.5vh;
+}
+
+section b {
+    color: #555;
+}
+
+
+/*
+.troll {
+    padding-left: 34vw;
+}
+*/
