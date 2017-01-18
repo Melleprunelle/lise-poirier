@@ -244,3 +244,17 @@ $(document).ready(function() {
 	init();
 
 })();
+
+
+//SCROLL BAR DU SITE
+$("body").addClass("thin");
+
+$("body").mouseover(function(){
+  $(this).removeClass("thin");
+});
+$("body").mouseover(function(){
+  $(this).addClass("thin");
+});
+$("body").scroll(function () {
+  $("body").addClass("thin");
+});

@@ -1,3 +1,21 @@
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+body.thin::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 139, 139, 0.7);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(97, 0, 23, 1);
+    border-radius: 10px;
+}
+
+
 /* ==========================================================================
    FONT FACE
    ========================================================================== */
