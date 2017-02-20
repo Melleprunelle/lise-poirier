@@ -17,14 +17,11 @@ $(document).ready(function () {
 
 
 //affichage projet
-function affichageprojet() {
-    var element = document.getElementById("affichage-projet");
-    if (element.style.display == "block") {
-        element.style.display = "none";
-    } else {
-        element.style.display = "block";
-    }
-}
+$(document).ready(function(){
+    $("#button-plus").click(function(){
+        $("#projet-2").slideToggle("slow");
+    });
+});
 
 //icone presentation
 $('#present-1').ready(function () {
