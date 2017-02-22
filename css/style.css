@@ -11,7 +11,7 @@ body.thin::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(97, 0, 23, 1);
+    background: #C5142C;
     border-radius: 10px;
 }
 
