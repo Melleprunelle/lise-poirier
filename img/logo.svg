@@ -102,9 +102,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="79.794289"
-     inkscape:cy="92.301338"
+     inkscape:zoom="5.6"
+     inkscape:cx="177.73004"
+     inkscape:cy="213.36404"
      inkscape:document-units="px"
      inkscape:current-layer="g30"
      showgrid="false"
@@ -122,7 +122,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -186,29 +186,32 @@
           </g>
           <g
              transform="translate(334.4458,250.1128)"
-             id="g82">
+             id="g82"
+             style="fill:#c5142c;fill-opacity:1">
             <path
                inkscape:connector-curvature="0"
                id="path84"
-               style="fill:#a3195b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="fill:#c5142c;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="M 0,0 7.71,-2.048 15.557,4.677 9.427,6.304 0,0 Z" />
           </g>
           <g
              transform="translate(307.7349,232.2451)"
-             id="g86">
+             id="g86"
+             style="fill:#c5142c;fill-opacity:1">
             <path
                inkscape:connector-curvature="0"
                id="path88"
-               style="fill:#a3195b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="fill:#c5142c;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="M 0,0 12.184,-3.234 20.027,3.487 9.419,6.305 0,0 Z" />
           </g>
           <g
              transform="translate(370.5825,274.2837)"
-             id="g90">
+             id="g90"
+             style="fill:#c5142c;fill-opacity:1">
             <path
                inkscape:connector-curvature="0"
                id="path92"
-               style="fill:#a3195b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="fill:#c5142c;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="M 0,0 -9.424,-6.303 -6.184,-7.165 1.66,-0.44 0,0 Z" />
           </g>
           <g
@@ -261,25 +264,17 @@
             <path
                inkscape:connector-curvature="0"
                id="path120"
-               style="fill:#a3195b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="fill:#c5142c;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="m 0,0 c 0,0 -37.541,28.335 -67.464,3.894 -33.019,-26.97 -44.06,-16.843 -53.797,-9.791 -9.741,7.053 -16.506,-92.429 6.982,-103.92 23.483,-11.489 61.217,42.114 61.217,42.114 0,0 58.739,48.278 53.062,67.703" />
           </g>
           <g
-             transform="translate(180.4619,116.3477)"
-             id="g122">
-            <path
-               inkscape:connector-curvature="0"
-               id="path124"
-               style="fill:#a3195b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-               d="m 0,0 c 0.89,10.27 8.895,18.748 15.869,31.478 18.149,42.047 28.846,36.289 67.978,38.087 l 9.789,-3.969 8.284,29.337 1.973,10.497 -0.269,0.486 -0.016,0.028 -0.03,0.059 -0.367,0.814 -0.01,0.026 -0.018,0.053 -0.118,0.32 -0.125,0.364 -0.218,0.649 -0.353,1.364 -0.09,0.331 -0.039,0.168 -0.01,0.038 -0.025,0.114 -0.016,0.088 -0.123,0.692 c -0.079,0.465 -0.179,0.926 -0.233,1.391 l -0.177,1.39 c -0.064,0.463 -0.081,0.934 -0.128,1.402 -0.038,0.464 -0.087,0.942 -0.102,1.389 l -0.005,0.069 C 77.838,119.658 -10.773,122.011 -11.535,3.627 L 0,0 Z" />
-          </g>
-          <g
              transform="translate(386.8569,120.249)"
-             id="g126">
+             id="g126"
+             style="fill:#c5142c;fill-opacity:1">
             <path
                inkscape:connector-curvature="0"
                id="path128"
-               style="fill:#a3195b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="fill:#c5142c;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="m 0,0 -29.272,5.617 c 0,0 -95.549,-28.444 -93.917,28.443 0.266,2.507 0.629,2.015 0.508,2.364 l -1.081,-1.885 c 0,0 -34.46,-58.378 55.407,-65.865 19.656,-1.638 30.171,-4.689 34.602,-8.462 C -12.813,-31.98 7.582,-19.185 0,0" />
           </g>
           <g
@@ -374,11 +369,12 @@
           </g>
           <g
              transform="translate(316.3247,206.2793)"
-             id="g170">
+             id="g170"
+             style="fill:#c5142c;fill-opacity:1">
             <path
                inkscape:connector-curvature="0"
                id="path172"
-               style="fill:#a3195b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               style="fill:#c5142c;fill-opacity:1;fill-rule:nonzero;stroke:none"
                d="M 0,0 C 2.653,21.828 -30.697,25.559 -30.697,25.559 -36.55,7.752 -11.087,-10.763 -0.29,-19.537 -1.005,-15.564 -1.122,-9.279 0,0" />
           </g>
         </g>

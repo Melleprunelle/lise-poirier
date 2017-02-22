@@ -15,6 +15,8 @@ body.thin::-webkit-scrollbar {
     border-radius: 10px;
 }
 
+/*FUSHIA color: #C5142C;*/
+
 
 /* ==========================================================================
    FONT FACE
@@ -42,6 +44,8 @@ body.thin::-webkit-scrollbar {
 
 body {
     font-family: "Open Sans";
+     background-image: url(../img/cork-wallet.png);
+    background-attachment: fixed;
 }
 
 .container-fluid {
@@ -58,7 +62,7 @@ h1 {
 }
 
 h2 {
-    color: #C5142C;
+    color:#222;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 2.2em;
@@ -67,7 +71,7 @@ h2 {
 }
 
 i {
-    color: darkcyan;
+    color: #C5142C;
     margin-top: 10px;
     font-size: 1.6em !important;
 }
@@ -112,18 +116,19 @@ i:hover {
 .navbar {
     border-radius: 0px;
     background-color: transparent;
-    border: 0px solid #C5142C;
+    border: 0px solid #222;
 }
 
 .navbar-left li:hover {
-    border-bottom: 3px solid darkcyan;
+    border-bottom: 3px solid #C5142C;
 }
 
 .navbar a {
     text-transform: uppercase;
-    color: #C5142C !important;
+    color:#222 !important;
     font-family: "Opens Sans", sans-serif;
     font-size: 1em;
+    font-weight: 600;
 }
 
 .navbar-right {
@@ -168,11 +173,7 @@ i:hover {
 
 header {
     height: 100vh;
-    background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
     position: relative;
-    background-image: url(../img/papier.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
 }
 
 header div:first-child {
@@ -283,7 +284,7 @@ header div:first-child {
 
 .separator-header {
     width: 55%;
-    border-bottom: 2px solid #C5142C;
+    border-bottom: 2px solid#222;
 }
 
 
@@ -293,11 +294,12 @@ header div:first-child {
 
 .presentation {
     display: block;
-    background-color: #2B1000;
     height: 900px;
     padding-top: 75px;
     padding-bottom: 75px;
     background-color: #610017;
+    background-image: url(../img/black_paper.png);
+    background-attachment: fixed;
 }
 
 .presentation img {
@@ -332,7 +334,7 @@ header div:first-child {
 
 .div-present {
     height: 430px;
-    background-color: #d2ebf9;
+    background-color: #222;
     padding: 0px;
     background-image: url(../img/lise.jpg);
     background-size: 61%;
@@ -344,10 +346,12 @@ header div:first-child {
 
 .present {
     height: 100%;
-    background-color: darkcyan;
+    background-color: #222;
     padding: 0px;
     border-right: 1px solid whitesmoke;
     max-width: 66.66%;
+    background-size: 100%;
+    background-repeat: repeat;
 }
 
 #present-1 {
@@ -372,7 +376,7 @@ header div:first-child {
 }
 
 .hover-present {
-    background-color: whitesmoke;
+    background-image: url(../img/cork-wallet.png);
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -392,20 +396,20 @@ header div:first-child {
     margin-bottom: 0px;
     font-size: 2em;
     font-family: 'Lovelo-black';
-    color: #C5142C;
+    color:#222;
 }
 
 .hover-present p {
     margin-top: 20px;
     font-size: 1.1em;
     font-family: 'Open Sans';
-    color: #C5142C;
+    color:#222;
     width: 75%;
 }
 
 .separator-hover-present {
     width: 50%;
-    border-bottom: 1px solid #C5142C;
+    border-bottom: 1px solid#222;
     margin-top: 1vh;
 }
 
@@ -415,17 +419,15 @@ header div:first-child {
    ========================================================================== */
 
 .competence {
-    background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
     height: 100%;
     padding-top: 75px;
     padding-bottom: 75px;
-    background-image: url(../img/papier.jpg);
+    background-image: url(../img/cork-wallet.png);
     background-attachment: fixed;
-    background-size: 100%;
 }
 
 .section-competence {
-    border-right: 1px solid darkcyan;
+    border-right: 1px solid #C5142C;
     margin-top: 20px;
 }
 
@@ -449,9 +451,9 @@ header div:first-child {
 }
 
 .competence-indi h3 {
-    color: ;
     font-weight: 500;
-    color: #c5142c;
+    color:#222;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
     font-size: 1.5em;
@@ -464,7 +466,6 @@ header div:first-child {
     height: 2px;
     width: 5vw;
     margin-left: 1vw;
-    background-color: #F79E00;
 }
 
 .competence-indi img {
@@ -544,7 +545,7 @@ header div:first-child {
     position: relative;
     overflow: hidden;
     height: 100%;
-    background: #c5142c;
+    background: darkcyan;
 }
 
 .hover-projet figure img {
@@ -568,22 +569,17 @@ header div:first-child {
 
 .hover-projet figcaption h2 {
     margin: 0px 0 20px 0;
-    color: #3498db;
     padding-top: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 300;
     font-size: 130%;
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
     font-weight: 600;
-    color: #c5142c;
+    color:#222;
 }
 
 .hover-projet figcaption p {
     padding: 0 20px;
     color: #333;
-    font-weight: 300;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
     transition: opacity 0.3s, transform 0.3s;
 }
@@ -601,15 +597,16 @@ header div:first-child {
     font-size: 2em;
     font-weight: bold;
     bottom: 0px;
-    color: whitesmoke;
+    color: white;
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: #c5142c;
+    background-color:darkcyan;
 }
 
 .hover-projet figure button:hover {
-    opacity: 0.7;
+    opacity: 1;
+    transition: 0.5s;
 }
 
 .hover-projet svg {
@@ -643,13 +640,13 @@ header div:first-child {
     border: 0;
     color: whitesmoke;
     font-size: 3.5em;
-    background-color: #c5142c;
+    background-color: #C5142C;
     transition: 0.5s;
 }
 
 .voir-plus:hover {
     background-color: whitesmoke;
-    color: #c5142c;
+    color:#222;
 }
 
 #projet-2 {
@@ -662,12 +659,10 @@ header div:first-child {
    ========================================================================== */
 
 .contact {
-    background: linear-gradient(to bottom, #d2ebf9 60%, #feffff 98%);
     padding-top: 75px;
     padding-bottom: 75px;
-    background-image: url(../img/papier.jpg);
+    background-image: url(../img/cork-wallet.png);
     background-attachment: fixed;
-    background-size: 100%;
     height: 100%;
 }
 
@@ -723,18 +718,18 @@ form {
 .contact p {
     text-align: center;
     font-size: 1.3em;
-    color: #610017;
+    color: #222;
     width: 50%;
     display: block;
     margin: 0 auto;
 }
 
 .contact a {
-    color: darkcyan;
+    color: #C5142C;
 }
 
 .contact a:hover {
-    color: #610017;
+    color: #C5142C;
 }
 
 
@@ -750,6 +745,8 @@ footer {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-image: url(../img/black_paper.png);
+    background-attachment: fixed;
 }
 
 footer i {
