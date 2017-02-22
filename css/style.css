@@ -15,6 +15,7 @@ body.thin::-webkit-scrollbar {
     border-radius: 10px;
 }
 
+
 /*FUSHIA color: #C5142C;*/
 
 
@@ -44,7 +45,7 @@ body.thin::-webkit-scrollbar {
 
 body {
     font-family: "Open Sans";
-     background-image: url(../img/cork-wallet.png);
+    background-image: url(../img/cork-wallet.png);
     background-attachment: fixed;
 }
 
@@ -62,7 +63,7 @@ h1 {
 }
 
 h2 {
-    color:#222;
+    color: #222;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 2.2em;
@@ -125,7 +126,7 @@ i:hover {
 
 .navbar a {
     text-transform: uppercase;
-    color:#222 !important;
+    color: #222 !important;
     font-family: "Opens Sans", sans-serif;
     font-size: 1em;
     font-weight: 600;
@@ -184,13 +185,16 @@ header div:first-child {
     margin-top: 17vh;
 }
 
-
+.cheval-droite {
+    transform: rotateY(180deg);
+}
 
 #logo-header {
     display: inline-block;
     float: left;
     width: 25%;
 }
+
 .mountain {
     margin-left: -25px;
 }
@@ -396,14 +400,14 @@ header div:first-child {
     margin-bottom: 0px;
     font-size: 2em;
     font-family: 'Lovelo-black';
-    color:#222;
+    color: #222;
 }
 
 .hover-present p {
     margin-top: 20px;
     font-size: 1.1em;
     font-family: 'Open Sans';
-    color:#222;
+    color: #222;
     width: 75%;
 }
 
@@ -452,7 +456,7 @@ header div:first-child {
 
 .competence-indi h3 {
     font-weight: 500;
-    color:#222;
+    color: #222;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
@@ -574,7 +578,7 @@ header div:first-child {
     letter-spacing: 1px;
     font-size: 130%;
     font-weight: 600;
-    color:#222;
+    color: #222;
 }
 
 .hover-projet figcaption p {
@@ -601,7 +605,7 @@ header div:first-child {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color:darkcyan;
+    background-color: darkcyan;
 }
 
 .hover-projet figure button:hover {
@@ -646,7 +650,7 @@ header div:first-child {
 
 .voir-plus:hover {
     background-color: whitesmoke;
-    color:#222;
+    color: #222;
 }
 
 #projet-2 {
@@ -664,10 +668,6 @@ header div:first-child {
     background-image: url(../img/cork-wallet.png);
     background-attachment: fixed;
     height: 100%;
-}
-
-form {
-    display: none;
 }
 
 .contact h2 {
@@ -797,4 +797,22 @@ footer p {
         width: 200px;
         margin-bottom: 20px;
     }
+}
+
+.paralax-container {
+    height: 175px;
+    width: 100%;
+    background-image: url('../img/black_paper.png');
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.cat {
+    background-image: url('../img/chat.svg');
+    background-position: center;
+    background-size: contain;
+    width: 500px;
+    height: 200px;
+    display: block;
+    background-repeat: no-repeat;
 }

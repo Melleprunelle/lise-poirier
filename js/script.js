@@ -20,7 +20,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#button-plus').click(function () {
         var button=this
-        $('#projet-2').slideToggle(3000, function () {
+        $('#projet-2').slideToggle(2000, function () {
            
             if ($('#projet-2').is(':visible')) {
                 $("span", button).text("-");
@@ -262,4 +262,20 @@ $("body").mouseover(function(){
 });
 $("body").scroll(function () {
   $("body").addClass("thin");
+});
+
+
+//CAT
+$('.cat').on('inview', function (event, isInView) {
+    if (isInView) {
+        $(this).css({
+            margin: "-5px auto 0",
+            "transition": "0.5s"
+        })
+    } else {
+        $(this).css({
+            margin: "200px auto 0",
+            "transition": "0.5s"
+        })
+    }
 });
